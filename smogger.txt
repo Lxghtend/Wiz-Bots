@@ -1,0 +1,26 @@
+#SMOGGER AUTO BY LXGHTEND
+
+#ENTER SIGIL
+mass tp XYZ(-2214.314697265625, 2266.075439453125, -220.08303833007812)
+mass press X, 0.4
+mass press X, 0.4
+mass waitforzonechange completion
+sleep 1
+#TP TO SMOGGER
+mass tp XYZ(-24244.388671875, 52829.59765625, -129.6986083984375)
+sleep 1
+mass tp closestmob
+mass waitforcombat completion
+sleep 1
+#RELOG
+mass sendkey ESC, .01
+Sleep 2
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'QuitButton'] 
+sleep 2
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'QuitButton']
+sleep 2
+mass sendkey ENTER, 0.1
+mass waitforpath ['WorldView', 'mainWindow']
+sleep 2
+mass clickwindow ['WorldView', 'mainWindow', 'btnPlay']
+sleep 5
