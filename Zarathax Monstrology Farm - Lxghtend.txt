@@ -1,0 +1,41 @@
+#        Zarathax Monstrology Farm
+
+#        1. Your start position needs to be in The Tower Archives in Dragonspyre
+#        2. Turn ports off (if afk farming) incase a friend teleports to you
+#        4. Turn on combat on deimos
+
+#	 BOT MADE BY @LXGHTEND (DM ON DISCORD FOR QUESTIONS)
+
+
+#buy potions if needed
+mass buypotions ifneeded
+
+#use potion if needed
+mass usepotion 25 20
+
+#walk to sigil
+mass walkto XYZ(16757.33984375, -14506.1943359375, 934.2567749023438)
+
+#enter sigil
+mass press X, 0.2
+mass waitforzone change
+sleep 1
+
+#tp to Zarathax
+mass tp closestmob
+
+#reset
+mass waitforcombat completion
+sleep 1
+mass sendkey ESC, .01
+Sleep 2
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'QuitButton'] 
+sleep 2
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'QuitButton']
+sleep 2
+mass sendkey ENTER, 0.1
+mass waitforpath ['WorldView', 'mainWindow']
+sleep 2
+mass clickwindow ['WorldView', 'mainWindow', 'btnPlay']
+sleep 5
+

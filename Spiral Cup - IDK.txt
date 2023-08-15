@@ -1,0 +1,135 @@
+mass usepotion 30,10
+sleep 2
+mass friendtp Justin FireWalker
+sleep 8
+mass sendkey X, 0.1
+mass sendkey X, 0.1
+mass waitforzonechange to Housing_PA_Gauntlet/PA_Gauntlet_80/PA_Gauntlet_80_01
+sleep 3
+
+#teleport to benedict to start quest
+mass tp XYZ(107.89997863769531, 315.2451477050781, 80.88430786132812)
+sleep 1
+mass sendkey X, 0.1
+mass sendkey X, 0.1
+sleep 3
+
+#TELEPORT INTO FIRST ROOM
+mass tp XYZ(-1500.265869140625, -8.332935333251953, 20.964263916015625)
+mass waitforzonechange to Housing_PA_Gauntlet/PA_Gauntlet_80/PA_Gauntlet_80_02
+sleep 3
+
+#FIRST MOB FIGHT
+mass tp closestmob
+mass sendkey S, 0.3
+mass sendkey W, 0.3
+mass waitforcombat completion
+sleep 3
+
+#ZONE CHANGE AFTER FIGHT 1
+mass tp XYZ(520.0247802734375, 1352.1201171875, 0.200042724609375)
+mass waitforzonechange to Housing_PA_Gauntlet/PA_Gauntlet_80/PA_Gauntlet_80_01
+sleep 3
+
+#GRAB ORBS BEFORE LEAVE
+mass entitytp health
+sleep 1
+mass entitytp health
+sleep 1
+
+#TELEPORT TO CONTIINUE QUEST 2
+mass tp XYZ(96.3862075805664, 262.6782531738281, 80.89154052734375)
+sleep 1
+mass sendkey X, 0.1
+mass sendkey X, 0.1
+sleep 3
+
+#ZONE CHANGE FOR FIGHT 2
+mass tp XYZ(-981.5645141601562, -1015.9093017578125, 82.52023315429688)
+mass waitforzonechange to Housing_PA_Gauntlet/PA_Gauntlet_80/PA_Gauntlet_80_03
+sleep 3
+
+#SECOND MOB FIGHT
+mass tp closestmob
+mass sendkey S, 0.3
+mass sendkey W, 0.3
+mass waitforcombat completion
+sleep 3
+
+#ZONE CHANGE AFTER FIGHT 2
+mass tp XYZ(513.936279296875, 1273.4454345703125, 0.199981689453125)
+mass waitforzonechange to Housing_PA_Gauntlet/PA_Gauntlet_80/PA_Gauntlet_80_01
+sleep 3
+
+#GRAB ORBS BEFORE LEAVE
+mass entitytp health
+sleep 1
+mass entitytp health
+sleep 1
+
+#TELEPORT TO CONTINUE QUEST 3
+mass tp XYZ(69.07967376708984, 260.2621154785156, 80.891845703125)
+sleep 1
+mass sendkey X, 0.1
+mass sendkey X, 0.1
+sleep 3
+
+#ZONE CHANGE FOR FIGHT 3
+mass tp XYZ(1009.1116333007812, -1049.900634765625, 82.51602172851562)
+mass waitforzonechange to Housing_PA_Gauntlet/PA_Gauntlet_80/PA_Gauntlet_80_04
+sleep 3
+
+#MOB FIGHT 3
+mass tp closestmob
+mass sendkey S, 0.3
+mass sendkey W, 0.3
+mass waitforcombat completion
+sleep 3
+
+#TELEPORT TO LEAVE AFTER FIGHT 3
+mass tp XYZ(512.6905517578125, 1281.3607177734375, 0.199981689453125)
+mass waitforzonechange to Housing_PA_Gauntlet/PA_Gauntlet_80/PA_Gauntlet_80_01
+sleep 3
+
+#GRAB ORBS BEFORE LEAVE
+mass entitytp health
+sleep 1
+mass entitytp health
+sleep 1
+
+#TELEPORT TO PICK UP QUEST 4
+mass tp XYZ(141.49525451660156, 286.3606262207031, 80.88601684570312)
+sleep 1
+mass sendkey X, 0.1
+mass sendkey X, 0.1
+sleep 3
+
+#ZONE CHANGE FOR FIGHT 4
+mass tp XYZ(1440.182861328125, -6.898346900939941, 20.964752197265625)
+mass waitforzonechange to Housing_PA_Gauntlet/PA_Gauntlet_80/PA_Gauntlet_80_05
+sleep 3
+
+#MOB FIGHT 4
+mass tp closestmob
+mass sendkey S, 0.3
+mass sendkey W, 0.3
+mass waitforcombat completion
+sleep 3
+
+#END OF DUNGEON ZONE CHANGE
+mass tp XYZ(519.0575561523438, 1305.0963134765625, 0.20001220703125)
+mass waitforzonechange to Housing_PA_Gauntlet/PA_Gauntlet_80/PA_Gauntlet_80_01
+sleep 3
+
+#GRAB ORBS BEFORE LEAVE
+mass entitytp health
+sleep 1
+mass entitytp mana
+sleep 1
+
+#ANTI AFK
+mass sendkey W, 0.3
+mass sendkey S, 0.3
+sleep 2
+
+print "COUNT"

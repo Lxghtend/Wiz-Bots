@@ -1,0 +1,117 @@
+#        HoS Stone Key AFK Farm
+
+#        1. Your start position needs to be in Upper Zigzag in Krokotopia
+#        2. Turn on dialoge on deimos
+#        3. Turn on combat on deimos
+
+#	 BOT MADE BY @LXGHTEND (DM ON DISCORD FOR QUESTIONS)
+
+
+#buy potions if needed
+mass buypotions ifneeded
+
+#use potion if needed
+mass usepotion 50 20
+
+#enter
+mass tp XYZ(9750.642578125, -3455.5654296875, 219.38763427734375)
+sleep 1
+mass press X, 0.2
+mass waitforzonechange
+
+#dialoge
+mass walkto XYZ(2362.663818359375, -3596.773193359375, 187.30099487304688)
+sleep 2
+mass walkto XYZ(658.4454345703125, -3190.39990234375, 81.4576416015625)
+sleep 1
+mass press X, 0.2
+sleep 2
+
+#mob one
+mass walkto XYZ(244.35693359375, 2231.71484375, 81.46539306640625)
+mass waitforcombat completion
+sleep 1
+
+#walk to next area
+mass walkto XYZ(-2.0825388431549072, 6708.56689453125, 618.73095703125)
+mass waitforzonechange
+sleep 1 
+
+#dialoge
+mass walkto XYZ(-0.22966155409812927, -734.2811889648438, 567.1441650390625)
+sleep 2
+
+#mob two 
+mass walkto XYZ(110.58817291259766, 3398.008544921875, 242.95614624023438)
+mass waitforcombat completion
+sleep 1
+
+#dialoge
+mass tp XYZ(4703.99169921875, 10483.8173828125, 241.13412475585938)
+sleep 1
+mass walkto XYZ(4724.88037109375, 12018.4609375, 103.089111328125)
+sleep 2
+
+#boss one
+mass walkto XYZ(4787.46484375, 13286.5009765625, 85.39132690429688)
+mass waitforcombat completion
+sleep 1
+
+#dialoge
+mass walkto XYZ(6042.75439453125, 14366.689453125, 119.16378784179688)
+sleep 1
+
+#enter next zone
+mass walkto XYZ(6452.76708984375, 14478.10546875, 149.88119506835938)
+sleep 2
+
+#dialoge
+mass walkto XYZ(-3557.078369140625, -19.634828567504883, 160.64743041992188)
+sleep 2
+
+#mob three
+mass walkto XYZ(-160.9911346435547, -26.32761573791504, -49.57598876953125)
+mass waitforcombat completion
+
+#dialoge
+mass walkto XYZ(3474.65673828125, -21.253747940063477, 275.8748474121094)
+sleep 2
+mass walkto XYZ(5176.96923828125, 105.27405548095703, -49.576019287109375)
+sleep 1
+
+#boss two
+mass walkto XYZ(6424.12548828125, 4.4470415115356445, -49.576019287109375)
+mass waitforcombat completion
+sleep 1
+
+#enter next zone
+mass walkto XYZ(6113.4462890625, 163.33419799804688, -49.576019287109375)
+sleep 2
+mass walkto XYZ(6636.06689453125, -2310.3212890625, 395.7725524902344)
+sleep 3
+
+#tp to dialoge
+mass tp XYZ(-4474.22802734375, -4673.43017578125, -3065.33154296875)
+sleep 1
+mass walkto XYZ(-4565.771484375, -4383.08203125, -3167.431396484375)
+sleep 2
+
+#boss three
+mass walkto XYZ(-5132.87255859375, -3084.9482421875, -3410.792236328125)
+sleep 1
+mass walkto XYZ(-7448.5791015625, -5085.8291015625, -3316.802001953125)
+mass waitforcombat completion
+sleep 3
+
+#relog
+mass sendkey ESC, .01
+Sleep 2
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'QuitButton'] 
+sleep 2
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'QuitButton']
+sleep 2
+mass sendkey ENTER, 0.1
+mass waitforpath ['WorldView', 'mainWindow']
+sleep 2
+mass clickwindow ['WorldView', 'mainWindow', 'btnPlay']
+sleep 5

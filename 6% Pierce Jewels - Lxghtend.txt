@@ -1,0 +1,9 @@
+# use a potion if client falls below 25% health or 20% mana
+mass usepotion 25 20
+mass tp XYZ(3874.52392578125, 944.1100463867188, -58.286102294921875)
+mass waitforcombat completion
+sleep 0.3
+mass sendkey A, 0.3
+sleep 0.3
+mass tp XYZ(3506.9775390625, 1657.103759765625, -58.3074951171875)
+mass buypotions ifneeded

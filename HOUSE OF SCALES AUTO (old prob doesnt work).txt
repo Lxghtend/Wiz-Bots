@@ -1,0 +1,70 @@
+#Teleport to HOS sigil
+mass teleport XYZ(9682.56640625, -3236.458984375, 219.38223266601562)
+sleep 1
+
+#Press X to enter sigil
+mass sendkey X, 0.3
+mass waitforzonechange
+sleep 1
+
+# Initiate Dialogue With NPC
+mass tp XYZ(662.1044311523438, -3172,65771484375, 81.45755004882812)
+sleep 3
+
+#Teleport to mob
+mass tp XYZ(244.85641479492188, -92.80679321289062, 82.38665771484375)
+sleep 2
+mass tp closestmob
+mass waitforcombat completion
+sleep 1
+
+#continue dungeon
+mass tp XYZ(27.30900001525879, 6713.07177734375, 618.73095703125)
+mass waitforzonechange
+sleep 1
+
+#search area
+mass tp XYZ(XYZ(0.6736345887184143, -415.082275390625, 461.05828857421875)
+sleep 1
+mass tp XYZ(7.051040172576904, 1838.50830078125, 242.95632934570312)
+mass tp closestmob
+mass waitforcombat completion
+sleep 1
+
+#izft
+sleep 1
+mass tp XYZ(4780.11962890625, 12046.998046875, 99.63995361328125)
+sleep 1
+mass tp closestmob
+mass waitforcombat completion
+
+#next area
+mass tp XYZ(6448.017578125, 14497.9140625, 147.02618408203125)
+waitforfree
+mass tp XYZ(-3515.6875, -42.073944091796875, 148.58773803710938)
+sleep 1
+mass tp closestmob
+mass waitforcombat completion
+sleep 1
+
+#apep
+mass tp XYZ(3313.91552734375, -8.665899276733398, 323.5624084472656)
+mass tp closestmob
+mass waitforcombat completion
+sleep 1
+
+#hall of justices
+sleep 1
+mass tp XYZ(6636.06689453125, -2310.3212890625, 395.7725524902344)
+sleep 1
+mass tp XYZ(-4878.13232421875, -4664.50537109375, -3104.976318359375)
+mass tp closestmob
+mass waitforcombat completion
+sleep 1
+
+#Teleport to leave the dungeon
+mass tp XYZ(-7.645229339599609, -130.81588745117188, -4.808990478515625)
+sleep 2
+mass sendkey ENTER, 0.2
+mass waitforzonechange to G14_HS/HS_Z01_ZigazagUpper
+sleep 2

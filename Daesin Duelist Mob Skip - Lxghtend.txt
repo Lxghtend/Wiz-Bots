@@ -1,0 +1,12 @@
+#        Daesin Duelist Mob Skip
+
+#        1. Your start position needs to be on top of the Dueling Space sigil.
+
+#	 BOT MADE BY @LXGHTEND (DM ON DISCORD FOR QUESTIONS)
+
+mass press X, 0.3
+mass press X, 0.3
+mass press X, 0.3
+mass waitforzonechange to Novus/Interiors/NV_Z06_NucleusDuelingSpace
+mass tp XYZ(464.9798278808594, -3131.171142578125, 0.4723553955554962)
+sleep 2

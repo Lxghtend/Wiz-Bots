@@ -1,0 +1,3004 @@
+#        Sweetzburg Parchment Farm
+
+#        1. Your start position needs to be in Sweetzburg in Karamelle
+#        2. Increase the "sleep 1" to "sleep 2" if you have a slower computer
+#        3. Turn ports off (if afk farming) incase a friend teleports to you
+#        4. Must not be in Blossom realm on start
+
+#	 BOT MADE BY @LXGHTEND (DM ON DISCORD FOR QUESTIONS)
+
+# Switch to Blossom Realm
+mass sendkey ESC 0.3
+sleep 0.4
+
+# Click Realms Icon
+
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'TabWindow', 'RealmsButton']
+sleep 0.4
+
+# Click Blossom Realm
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'wndRealmPanel', 'btnRealm5']
+sleep 0.4
+
+# Go to Realm
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'btnGoToRealm']
+
+
+sleep 8
+
+
+#TP to Parchment Location 1
+mass tp XYZ(-2867.3896484375, -4882.05224609375, 57.579315185546875)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+#TP to Parchment Location 2
+mass tp XYZ(-5045.744140625, -3026.845947265625, 47.804168701171875)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 3
+mass tp XYZ(-1327.75341796875, -1569.407958984375, 17.5)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 4
+mass tp XYZ(-1084.6871337890625, 425.78271484375, 17.5) 
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 5
+mass tp XYZ(-2481.106689453125, 2761.48095703125, 30.36773681640625)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 6
+mass tp XYZ(1797.1890869140625, 6647.8349609375, 17.5) 
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 7
+mass tp XYZ(5698.88916015625, 3404.849365234375, 17.500030517578125)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 8
+mass tp XYZ(4494.7197265625, -5782.3017578125, 119.41094970703125)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 9
+mass tp XYZ(1242.9229736328125, -3498.18212890625, 17.5)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 32
+
+
+# Switch to Centaur Realm
+mass sendkey ESC 0.3
+sleep 0.4
+
+# Click Realms Icon
+
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'TabWindow', 'RealmsButton']
+sleep 0.4
+
+# Click Centaur Realm
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'wndRealmPanel', 'btnRealm6']
+sleep 0.4
+
+# Go to Realm
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'btnGoToRealm']
+
+
+
+sleep 8
+
+
+#TP to Parchment Location 1
+mass tp XYZ(-2867.3896484375, -4882.05224609375, 57.579315185546875)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+#TP to Parchment Location 2
+mass tp XYZ(-5045.744140625, -3026.845947265625, 47.804168701171875)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 3
+mass tp XYZ(-1327.75341796875, -1569.407958984375, 17.5)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 4
+mass tp XYZ(-1084.6871337890625, 425.78271484375, 17.5) 
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 5
+mass tp XYZ(-2481.106689453125, 2761.48095703125, 30.36773681640625)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 6
+mass tp XYZ(1797.1890869140625, 6647.8349609375, 17.5) 
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 7
+mass tp XYZ(5698.88916015625, 3404.849365234375, 17.500030517578125)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 8
+mass tp XYZ(4494.7197265625, -5782.3017578125, 119.41094970703125)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 9
+mass tp XYZ(1242.9229736328125, -3498.18212890625, 17.5)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 32
+
+
+# Switch to Diego Realm
+mass sendkey ESC 0.3
+sleep 0.4
+
+# Click Realms Icon
+
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'TabWindow', 'RealmsButton']
+sleep 0.4
+
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'btnRealmRight']
+sleep 0.4
+
+# Click Diego Realm
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'wndRealmPanel', 'btnRealm0']
+sleep 0.4
+
+# Go to Realm
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'btnGoToRealm']
+
+
+
+sleep 8
+
+
+#TP to Parchment Location 1
+mass tp XYZ(-2867.3896484375, -4882.05224609375, 57.579315185546875)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+#TP to Parchment Location 2
+mass tp XYZ(-5045.744140625, -3026.845947265625, 47.804168701171875)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 3
+mass tp XYZ(-1327.75341796875, -1569.407958984375, 17.5)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 4
+mass tp XYZ(-1084.6871337890625, 425.78271484375, 17.5) 
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 5
+mass tp XYZ(-2481.106689453125, 2761.48095703125, 30.36773681640625)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 6
+mass tp XYZ(1797.1890869140625, 6647.8349609375, 17.5) 
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 7
+mass tp XYZ(5698.88916015625, 3404.849365234375, 17.500030517578125)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 8
+mass tp XYZ(4494.7197265625, -5782.3017578125, 119.41094970703125)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 9
+mass tp XYZ(1242.9229736328125, -3498.18212890625, 17.5)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 32
+
+
+# Switch to Drake Realm
+mass sendkey ESC 0.3
+sleep 0.4
+
+# Click Realms Icon
+
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'TabWindow', 'RealmsButton']
+sleep 0.4
+
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'btnRealmRight']
+sleep 0.4
+
+# Click Drake Realm
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'wndRealmPanel', 'btnRealm1']
+sleep 0.4
+
+# Go to Realm
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'btnGoToRealm']
+
+
+
+sleep 8
+
+
+#TP to Parchment Location 1
+mass tp XYZ(-2867.3896484375, -4882.05224609375, 57.579315185546875)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+#TP to Parchment Location 2
+mass tp XYZ(-5045.744140625, -3026.845947265625, 47.804168701171875)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 3
+mass tp XYZ(-1327.75341796875, -1569.407958984375, 17.5)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 4
+mass tp XYZ(-1084.6871337890625, 425.78271484375, 17.5) 
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 5
+mass tp XYZ(-2481.106689453125, 2761.48095703125, 30.36773681640625)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 6
+mass tp XYZ(1797.1890869140625, 6647.8349609375, 17.5) 
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 7
+mass tp XYZ(5698.88916015625, 3404.849365234375, 17.500030517578125)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 8
+mass tp XYZ(4494.7197265625, -5782.3017578125, 119.41094970703125)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 9
+mass tp XYZ(1242.9229736328125, -3498.18212890625, 17.5)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 32
+
+
+# Switch to Dryad Realm
+mass sendkey ESC 0.3
+sleep 0.4
+
+# Click Realms Icon
+
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'TabWindow', 'RealmsButton']
+sleep 0.4
+
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'btnRealmRight']
+sleep 0.4
+
+# Click Dryad Realm
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'wndRealmPanel', 'btnRealm2']
+sleep 0.4
+
+# Go to Realm
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'btnGoToRealm']
+
+
+
+sleep 8
+
+
+#TP to Parchment Location 1
+mass tp XYZ(-2867.3896484375, -4882.05224609375, 57.579315185546875)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+#TP to Parchment Location 2
+mass tp XYZ(-5045.744140625, -3026.845947265625, 47.804168701171875)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 3
+mass tp XYZ(-1327.75341796875, -1569.407958984375, 17.5)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 4
+mass tp XYZ(-1084.6871337890625, 425.78271484375, 17.5) 
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 5
+mass tp XYZ(-2481.106689453125, 2761.48095703125, 30.36773681640625)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 6
+mass tp XYZ(1797.1890869140625, 6647.8349609375, 17.5) 
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 7
+mass tp XYZ(5698.88916015625, 3404.849365234375, 17.500030517578125)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 8
+mass tp XYZ(4494.7197265625, -5782.3017578125, 119.41094970703125)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 9
+mass tp XYZ(1242.9229736328125, -3498.18212890625, 17.5)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 32
+
+
+# Switch to Dworgyn Realm
+mass sendkey ESC 0.3
+sleep 0.4
+
+# Click Realms Icon
+
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'TabWindow', 'RealmsButton']
+sleep 0.4
+
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'btnRealmRight']
+sleep 0.4
+
+# Click Dworgyn Realm
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'wndRealmPanel', 'btnRealm3']
+sleep 0.4
+
+# Go to Realm
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'btnGoToRealm']
+
+
+
+sleep 8
+
+
+#TP to Parchment Location 1
+mass tp XYZ(-2867.3896484375, -4882.05224609375, 57.579315185546875)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+#TP to Parchment Location 2
+mass tp XYZ(-5045.744140625, -3026.845947265625, 47.804168701171875)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 3
+mass tp XYZ(-1327.75341796875, -1569.407958984375, 17.5)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 4
+mass tp XYZ(-1084.6871337890625, 425.78271484375, 17.5) 
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 5
+mass tp XYZ(-2481.106689453125, 2761.48095703125, 30.36773681640625)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 6
+mass tp XYZ(1797.1890869140625, 6647.8349609375, 17.5) 
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 7
+mass tp XYZ(5698.88916015625, 3404.849365234375, 17.500030517578125)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 8
+mass tp XYZ(4494.7197265625, -5782.3017578125, 119.41094970703125)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 9
+mass tp XYZ(1242.9229736328125, -3498.18212890625, 17.5)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 32
+
+
+# Switch to Falmea Realm
+mass sendkey ESC 0.3
+sleep 0.4
+
+# Click Realms Icon
+
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'TabWindow', 'RealmsButton']
+sleep 0.4
+
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'btnRealmRight']
+sleep 0.4
+
+# Click Falmea Realm
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'wndRealmPanel', 'btnRealm4']
+sleep 0.4
+
+# Go to Realm
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'btnGoToRealm']
+
+
+sleep 8
+
+
+#TP to Parchment Location 1
+mass tp XYZ(-2867.3896484375, -4882.05224609375, 57.579315185546875)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+#TP to Parchment Location 2
+mass tp XYZ(-5045.744140625, -3026.845947265625, 47.804168701171875)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 3
+mass tp XYZ(-1327.75341796875, -1569.407958984375, 17.5)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 4
+mass tp XYZ(-1084.6871337890625, 425.78271484375, 17.5) 
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 5
+mass tp XYZ(-2481.106689453125, 2761.48095703125, 30.36773681640625)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 6
+mass tp XYZ(1797.1890869140625, 6647.8349609375, 17.5) 
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 7
+mass tp XYZ(5698.88916015625, 3404.849365234375, 17.500030517578125)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 8
+mass tp XYZ(4494.7197265625, -5782.3017578125, 119.41094970703125)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 9
+mass tp XYZ(1242.9229736328125, -3498.18212890625, 17.5)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 32
+
+
+# Switch to Ghoul Realm
+mass sendkey ESC 0.3
+sleep 0.4
+
+# Click Realms Icon
+
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'TabWindow', 'RealmsButton']
+sleep 0.4
+
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'btnRealmRight']
+sleep 0.4
+
+# Click Ghoul Realm
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'wndRealmPanel', 'btnRealm5']
+sleep 0.4
+
+# Go to Realm
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'btnGoToRealm']
+
+
+
+sleep 8
+
+
+#TP to Parchment Location 1
+mass tp XYZ(-2867.3896484375, -4882.05224609375, 57.579315185546875)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+#TP to Parchment Location 2
+mass tp XYZ(-5045.744140625, -3026.845947265625, 47.804168701171875)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 3
+mass tp XYZ(-1327.75341796875, -1569.407958984375, 17.5)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 4
+mass tp XYZ(-1084.6871337890625, 425.78271484375, 17.5) 
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 5
+mass tp XYZ(-2481.106689453125, 2761.48095703125, 30.36773681640625)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 6
+mass tp XYZ(1797.1890869140625, 6647.8349609375, 17.5) 
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 7
+mass tp XYZ(5698.88916015625, 3404.849365234375, 17.500030517578125)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 8
+mass tp XYZ(4494.7197265625, -5782.3017578125, 119.41094970703125)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 9
+mass tp XYZ(1242.9229736328125, -3498.18212890625, 17.5)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 32
+
+
+# Switch to Greyrose Realm
+mass sendkey ESC 0.3
+sleep 0.4
+
+# Click Realms Icon
+
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'TabWindow', 'RealmsButton']
+sleep 0.4
+
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'btnRealmRight']
+sleep 0.4
+
+# Click Greyrose Realm
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'wndRealmPanel', 'btnRealm6']
+sleep 0.4
+
+# Go to Realm
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'btnGoToRealm']
+
+
+
+sleep 8
+
+
+#TP to Parchment Location 1
+mass tp XYZ(-2867.3896484375, -4882.05224609375, 57.579315185546875)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+#TP to Parchment Location 2
+mass tp XYZ(-5045.744140625, -3026.845947265625, 47.804168701171875)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 3
+mass tp XYZ(-1327.75341796875, -1569.407958984375, 17.5)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 4
+mass tp XYZ(-1084.6871337890625, 425.78271484375, 17.5) 
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 5
+mass tp XYZ(-2481.106689453125, 2761.48095703125, 30.36773681640625)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 6
+mass tp XYZ(1797.1890869140625, 6647.8349609375, 17.5) 
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 7
+mass tp XYZ(5698.88916015625, 3404.849365234375, 17.500030517578125)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 8
+mass tp XYZ(4494.7197265625, -5782.3017578125, 119.41094970703125)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 9
+mass tp XYZ(1242.9229736328125, -3498.18212890625, 17.5)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 32
+
+
+# Switch to Helephant Realm
+mass sendkey ESC 0.3
+sleep 0.4
+
+# Click Realms Icon
+
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'TabWindow', 'RealmsButton']
+sleep 0.4
+
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'btnRealmRight']
+sleep 0.4
+
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'btnRealmRight']
+sleep 0.4
+
+# Click Helephant Realm
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'wndRealmPanel', 'btnRealm0']
+sleep 0.4
+
+# Go to Realm
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'btnGoToRealm']
+
+
+
+sleep 8
+
+
+#TP to Parchment Location 1
+mass tp XYZ(-2867.3896484375, -4882.05224609375, 57.579315185546875)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+#TP to Parchment Location 2
+mass tp XYZ(-5045.744140625, -3026.845947265625, 47.804168701171875)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 3
+mass tp XYZ(-1327.75341796875, -1569.407958984375, 17.5)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 4
+mass tp XYZ(-1084.6871337890625, 425.78271484375, 17.5) 
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 5
+mass tp XYZ(-2481.106689453125, 2761.48095703125, 30.36773681640625)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 6
+mass tp XYZ(1797.1890869140625, 6647.8349609375, 17.5) 
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 7
+mass tp XYZ(5698.88916015625, 3404.849365234375, 17.500030517578125)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 8
+mass tp XYZ(4494.7197265625, -5782.3017578125, 119.41094970703125)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 9
+mass tp XYZ(1242.9229736328125, -3498.18212890625, 17.5)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 32
+
+
+# Switch to Humongofrog Realm
+mass sendkey ESC 0.3
+sleep 0.4
+
+# Click Realms Icon
+
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'TabWindow', 'RealmsButton']
+sleep 0.4
+
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'btnRealmRight']
+sleep 0.4
+
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'btnRealmRight']
+sleep 0.4
+
+# Click Humongofrog Realm
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'wndRealmPanel', 'btnRealm1']
+sleep 0.4
+
+# Go to Realm
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'btnGoToRealm']
+
+
+
+sleep 8
+
+
+#TP to Parchment Location 1
+mass tp XYZ(-2867.3896484375, -4882.05224609375, 57.579315185546875)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+#TP to Parchment Location 2
+mass tp XYZ(-5045.744140625, -3026.845947265625, 47.804168701171875)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 3
+mass tp XYZ(-1327.75341796875, -1569.407958984375, 17.5)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 4
+mass tp XYZ(-1084.6871337890625, 425.78271484375, 17.5) 
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 5
+mass tp XYZ(-2481.106689453125, 2761.48095703125, 30.36773681640625)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 6
+mass tp XYZ(1797.1890869140625, 6647.8349609375, 17.5) 
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 7
+mass tp XYZ(5698.88916015625, 3404.849365234375, 17.500030517578125)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 8
+mass tp XYZ(4494.7197265625, -5782.3017578125, 119.41094970703125)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 9
+mass tp XYZ(1242.9229736328125, -3498.18212890625, 17.5)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 32
+
+
+# Switch to Imp Realm
+mass sendkey ESC 0.3
+sleep 0.4
+
+# Click Realms Icon
+
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'TabWindow', 'RealmsButton']
+sleep 0.4
+
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'btnRealmRight']
+sleep 0.4
+
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'btnRealmRight']
+sleep 0.4
+
+# Click Imp Realm
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'wndRealmPanel', 'btnRealm2']
+sleep 0.4
+
+# Go to Realm
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'btnGoToRealm']
+
+
+
+sleep 8
+
+
+#TP to Parchment Location 1
+mass tp XYZ(-2867.3896484375, -4882.05224609375, 57.579315185546875)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+#TP to Parchment Location 2
+mass tp XYZ(-5045.744140625, -3026.845947265625, 47.804168701171875)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 3
+mass tp XYZ(-1327.75341796875, -1569.407958984375, 17.5)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 4
+mass tp XYZ(-1084.6871337890625, 425.78271484375, 17.5) 
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 5
+mass tp XYZ(-2481.106689453125, 2761.48095703125, 30.36773681640625)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 6
+mass tp XYZ(1797.1890869140625, 6647.8349609375, 17.5) 
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 7
+mass tp XYZ(5698.88916015625, 3404.849365234375, 17.500030517578125)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 8
+mass tp XYZ(4494.7197265625, -5782.3017578125, 119.41094970703125)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 9
+mass tp XYZ(1242.9229736328125, -3498.18212890625, 17.5)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 32
+
+
+# Switch to Ivan Realm
+mass sendkey ESC 0.3
+sleep 0.4
+
+# Click Realms Icon
+
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'TabWindow', 'RealmsButton']
+sleep 0.4
+
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'btnRealmRight']
+sleep 0.4
+
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'btnRealmRight']
+sleep 0.4
+
+# Click Ivan Realm
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'wndRealmPanel', 'btnRealm3']
+sleep 0.4
+
+# Go to Realm
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'btnGoToRealm']
+
+
+
+sleep 8
+
+
+#TP to Parchment Location 1
+mass tp XYZ(-2867.3896484375, -4882.05224609375, 57.579315185546875)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+#TP to Parchment Location 2
+mass tp XYZ(-5045.744140625, -3026.845947265625, 47.804168701171875)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 3
+mass tp XYZ(-1327.75341796875, -1569.407958984375, 17.5)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 4
+mass tp XYZ(-1084.6871337890625, 425.78271484375, 17.5) 
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 5
+mass tp XYZ(-2481.106689453125, 2761.48095703125, 30.36773681640625)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 6
+mass tp XYZ(1797.1890869140625, 6647.8349609375, 17.5) 
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 7
+mass tp XYZ(5698.88916015625, 3404.849365234375, 17.500030517578125)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 8
+mass tp XYZ(4494.7197265625, -5782.3017578125, 119.41094970703125)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 9
+mass tp XYZ(1242.9229736328125, -3498.18212890625, 17.5)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 32
+
+
+# Switch to Kelvin Realm
+mass sendkey ESC 0.3
+sleep 0.4
+
+# Click Realms Icon
+
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'TabWindow', 'RealmsButton']
+sleep 0.4
+
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'btnRealmRight']
+sleep 0.4
+
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'btnRealmRight']
+sleep 0.4
+
+# Click Kelvin Realm
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'wndRealmPanel', 'btnRealm4']
+sleep 0.4
+
+# Go to Realm
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'btnGoToRealm']
+
+
+
+sleep 8
+
+
+#TP to Parchment Location 1
+mass tp XYZ(-2867.3896484375, -4882.05224609375, 57.579315185546875)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+#TP to Parchment Location 2
+mass tp XYZ(-5045.744140625, -3026.845947265625, 47.804168701171875)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 3
+mass tp XYZ(-1327.75341796875, -1569.407958984375, 17.5)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 4
+mass tp XYZ(-1084.6871337890625, 425.78271484375, 17.5) 
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 5
+mass tp XYZ(-2481.106689453125, 2761.48095703125, 30.36773681640625)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 6
+mass tp XYZ(1797.1890869140625, 6647.8349609375, 17.5) 
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 7
+mass tp XYZ(5698.88916015625, 3404.849365234375, 17.500030517578125)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 8
+mass tp XYZ(4494.7197265625, -5782.3017578125, 119.41094970703125)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 9
+mass tp XYZ(1242.9229736328125, -3498.18212890625, 17.5)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 32
+
+
+# Switch to Kraken Realm
+mass sendkey ESC 0.3
+sleep 0.4
+
+# Click Realms Icon
+
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'TabWindow', 'RealmsButton']
+sleep 0.4
+
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'btnRealmRight']
+sleep 0.4
+
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'btnRealmRight']
+sleep 0.4
+
+# Click Kraken Realm
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'wndRealmPanel', 'btnRealm5']
+sleep 0.4
+
+# Go to Realm
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'btnGoToRealm']
+
+
+
+sleep 8
+
+
+#TP to Parchment Location 1
+mass tp XYZ(-2867.3896484375, -4882.05224609375, 57.579315185546875)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+#TP to Parchment Location 2
+mass tp XYZ(-5045.744140625, -3026.845947265625, 47.804168701171875)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 3
+mass tp XYZ(-1327.75341796875, -1569.407958984375, 17.5)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 4
+mass tp XYZ(-1084.6871337890625, 425.78271484375, 17.5) 
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 5
+mass tp XYZ(-2481.106689453125, 2761.48095703125, 30.36773681640625)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 6
+mass tp XYZ(1797.1890869140625, 6647.8349609375, 17.5) 
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 7
+mass tp XYZ(5698.88916015625, 3404.849365234375, 17.500030517578125)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 8
+mass tp XYZ(4494.7197265625, -5782.3017578125, 119.41094970703125)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 9
+mass tp XYZ(1242.9229736328125, -3498.18212890625, 17.5)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 32
+
+
+# Switch to Leprechaun Realm
+mass sendkey ESC 0.3
+sleep 0.4
+
+# Click Realms Icon
+
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'TabWindow', 'RealmsButton']
+sleep 0.4
+
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'btnRealmRight']
+sleep 0.4
+
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'btnRealmRight']
+sleep 0.4
+
+# Click Leprechaun Realm
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'wndRealmPanel', 'btnRealm6']
+sleep 0.4
+
+# Go to Realm
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'btnGoToRealm']
+
+
+
+sleep 8
+
+
+#TP to Parchment Location 1
+mass tp XYZ(-2867.3896484375, -4882.05224609375, 57.579315185546875)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+#TP to Parchment Location 2
+mass tp XYZ(-5045.744140625, -3026.845947265625, 47.804168701171875)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 3
+mass tp XYZ(-1327.75341796875, -1569.407958984375, 17.5)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 4
+mass tp XYZ(-1084.6871337890625, 425.78271484375, 17.5) 
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 5
+mass tp XYZ(-2481.106689453125, 2761.48095703125, 30.36773681640625)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 6
+mass tp XYZ(1797.1890869140625, 6647.8349609375, 17.5) 
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 7
+mass tp XYZ(5698.88916015625, 3404.849365234375, 17.500030517578125)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 8
+mass tp XYZ(4494.7197265625, -5782.3017578125, 119.41094970703125)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 9
+mass tp XYZ(1242.9229736328125, -3498.18212890625, 17.5)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 32
+
+
+# Switch to Lincoln Realm
+mass sendkey ESC 0.3
+sleep 0.4
+
+# Click Realms Icon
+
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'TabWindow', 'RealmsButton']
+sleep 0.4
+
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'btnRealmRight']
+sleep 0.4
+
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'btnRealmRight']
+sleep 0.4
+
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'btnRealmRight']
+sleep 0.4
+
+# Click Lincoln Realm
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'wndRealmPanel', 'btnRealm0']
+sleep 0.4
+
+# Go to Realm
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'btnGoToRealm']
+
+
+
+sleep 8
+
+
+#TP to Parchment Location 1
+mass tp XYZ(-2867.3896484375, -4882.05224609375, 57.579315185546875)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+#TP to Parchment Location 2
+mass tp XYZ(-5045.744140625, -3026.845947265625, 47.804168701171875)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 3
+mass tp XYZ(-1327.75341796875, -1569.407958984375, 17.5)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 4
+mass tp XYZ(-1084.6871337890625, 425.78271484375, 17.5) 
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 5
+mass tp XYZ(-2481.106689453125, 2761.48095703125, 30.36773681640625)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 6
+mass tp XYZ(1797.1890869140625, 6647.8349609375, 17.5) 
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 7
+mass tp XYZ(5698.88916015625, 3404.849365234375, 17.500030517578125)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 8
+mass tp XYZ(4494.7197265625, -5782.3017578125, 119.41094970703125)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 9
+mass tp XYZ(1242.9229736328125, -3498.18212890625, 17.5)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 32
+
+
+# Switch to Orthrus Realm
+mass sendkey ESC 0.3
+sleep 0.4
+
+# Click Realms Icon
+
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'TabWindow', 'RealmsButton']
+sleep 0.4
+
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'btnRealmRight']
+sleep 0.4
+
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'btnRealmRight']
+sleep 0.4
+
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'btnRealmRight']
+sleep 0.4
+
+# Click Orthrus Realm
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'wndRealmPanel', 'btnRealm1']
+sleep 0.4
+
+# Go to Realm
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'btnGoToRealm']
+
+
+
+sleep 8
+
+
+#TP to Parchment Location 1
+mass tp XYZ(-2867.3896484375, -4882.05224609375, 57.579315185546875)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+#TP to Parchment Location 2
+mass tp XYZ(-5045.744140625, -3026.845947265625, 47.804168701171875)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 3
+mass tp XYZ(-1327.75341796875, -1569.407958984375, 17.5)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 4
+mass tp XYZ(-1084.6871337890625, 425.78271484375, 17.5) 
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 5
+mass tp XYZ(-2481.106689453125, 2761.48095703125, 30.36773681640625)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 6
+mass tp XYZ(1797.1890869140625, 6647.8349609375, 17.5) 
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 7
+mass tp XYZ(5698.88916015625, 3404.849365234375, 17.500030517578125)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 8
+mass tp XYZ(4494.7197265625, -5782.3017578125, 119.41094970703125)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 9
+mass tp XYZ(1242.9229736328125, -3498.18212890625, 17.5)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 32
+
+
+# Switch to Pheonix Realm
+mass sendkey ESC 0.3
+sleep 0.4
+
+# Click Realms Icon
+
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'TabWindow', 'RealmsButton']
+sleep 0.4
+
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'btnRealmRight']
+sleep 0.4
+
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'btnRealmRight']
+sleep 0.4
+
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'btnRealmRight']
+sleep 0.4
+
+# Click Pheonix Realm
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'wndRealmPanel', 'btnRealm2']
+sleep 0.4
+
+# Go to Realm
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'btnGoToRealm']
+
+
+
+sleep 8
+
+
+#TP to Parchment Location 1
+mass tp XYZ(-2867.3896484375, -4882.05224609375, 57.579315185546875)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+#TP to Parchment Location 2
+mass tp XYZ(-5045.744140625, -3026.845947265625, 47.804168701171875)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 3
+mass tp XYZ(-1327.75341796875, -1569.407958984375, 17.5)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 4
+mass tp XYZ(-1084.6871337890625, 425.78271484375, 17.5) 
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 5
+mass tp XYZ(-2481.106689453125, 2761.48095703125, 30.36773681640625)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 6
+mass tp XYZ(1797.1890869140625, 6647.8349609375, 17.5) 
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 7
+mass tp XYZ(5698.88916015625, 3404.849365234375, 17.500030517578125)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 8
+mass tp XYZ(4494.7197265625, -5782.3017578125, 119.41094970703125)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 9
+mass tp XYZ(1242.9229736328125, -3498.18212890625, 17.5)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 32
+
+
+# Switch to Pixie Realm
+mass sendkey ESC 0.3
+sleep 0.4
+
+# Click Realms Icon
+
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'TabWindow', 'RealmsButton']
+sleep 0.4
+
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'btnRealmRight']
+sleep 0.4
+
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'btnRealmRight']
+sleep 0.4
+
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'btnRealmRight']
+sleep 0.4
+
+# Click Pixie Realm
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'wndRealmPanel', 'btnRealm3']
+sleep 0.4
+
+# Go to Realm
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'btnGoToRealm']
+
+
+
+sleep 8
+
+
+#TP to Parchment Location 1
+mass tp XYZ(-2867.3896484375, -4882.05224609375, 57.579315185546875)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+#TP to Parchment Location 2
+mass tp XYZ(-5045.744140625, -3026.845947265625, 47.804168701171875)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 3
+mass tp XYZ(-1327.75341796875, -1569.407958984375, 17.5)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 4
+mass tp XYZ(-1084.6871337890625, 425.78271484375, 17.5) 
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 5
+mass tp XYZ(-2481.106689453125, 2761.48095703125, 30.36773681640625)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 6
+mass tp XYZ(1797.1890869140625, 6647.8349609375, 17.5) 
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 7
+mass tp XYZ(5698.88916015625, 3404.849365234375, 17.500030517578125)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 8
+mass tp XYZ(4494.7197265625, -5782.3017578125, 119.41094970703125)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 9
+mass tp XYZ(1242.9229736328125, -3498.18212890625, 17.5)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 32
+
+
+# Switch to Satyr Realm
+mass sendkey ESC 0.3
+sleep 0.4
+
+# Click Realms Icon
+
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'TabWindow', 'RealmsButton']
+sleep 0.4
+
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'btnRealmRight']
+sleep 0.4
+
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'btnRealmRight']
+sleep 0.4
+
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'btnRealmRight']
+sleep 0.4
+
+# Click Satyr Realm
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'wndRealmPanel', 'btnRealm4']
+sleep 0.4
+
+# Go to Realm
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'btnGoToRealm']
+
+
+
+sleep 8
+
+
+#TP to Parchment Location 1
+mass tp XYZ(-2867.3896484375, -4882.05224609375, 57.579315185546875)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+#TP to Parchment Location 2
+mass tp XYZ(-5045.744140625, -3026.845947265625, 47.804168701171875)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 3
+mass tp XYZ(-1327.75341796875, -1569.407958984375, 17.5)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 4
+mass tp XYZ(-1084.6871337890625, 425.78271484375, 17.5) 
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 5
+mass tp XYZ(-2481.106689453125, 2761.48095703125, 30.36773681640625)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 6
+mass tp XYZ(1797.1890869140625, 6647.8349609375, 17.5) 
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 7
+mass tp XYZ(5698.88916015625, 3404.849365234375, 17.500030517578125)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 8
+mass tp XYZ(4494.7197265625, -5782.3017578125, 119.41094970703125)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 9
+mass tp XYZ(1242.9229736328125, -3498.18212890625, 17.5)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 32
+
+
+# Switch to Scarecrow Realm
+mass sendkey ESC 0.3
+sleep 0.4
+
+# Click Realms Icon
+
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'TabWindow', 'RealmsButton']
+sleep 0.4
+
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'btnRealmRight']
+sleep 0.4
+
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'btnRealmRight']
+sleep 0.4
+
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'btnRealmRight']
+sleep 0.4
+
+# Click Scarecrow Realm
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'wndRealmPanel', 'btnRealm5']
+sleep 0.4
+
+# Go to Realm
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'btnGoToRealm']
+
+
+
+sleep 8
+
+
+#TP to Parchment Location 1
+mass tp XYZ(-2867.3896484375, -4882.05224609375, 57.579315185546875)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+#TP to Parchment Location 2
+mass tp XYZ(-5045.744140625, -3026.845947265625, 47.804168701171875)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 3
+mass tp XYZ(-1327.75341796875, -1569.407958984375, 17.5)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 4
+mass tp XYZ(-1084.6871337890625, 425.78271484375, 17.5) 
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 5
+mass tp XYZ(-2481.106689453125, 2761.48095703125, 30.36773681640625)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 6
+mass tp XYZ(1797.1890869140625, 6647.8349609375, 17.5) 
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 7
+mass tp XYZ(5698.88916015625, 3404.849365234375, 17.500030517578125)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 8
+mass tp XYZ(4494.7197265625, -5782.3017578125, 119.41094970703125)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 9
+mass tp XYZ(1242.9229736328125, -3498.18212890625, 17.5)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 32
+
+
+# Switch to Seraph Realm
+mass sendkey ESC 0.3
+sleep 0.4
+
+# Click Realms Icon
+
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'TabWindow', 'RealmsButton']
+sleep 0.4
+
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'btnRealmRight']
+sleep 0.4
+
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'btnRealmRight']
+sleep 0.4
+
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'btnRealmRight']
+sleep 0.4
+
+# Click Seraph Realm
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'wndRealmPanel', 'btnRealm6']
+sleep 0.4
+
+# Go to Realm
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'btnGoToRealm']
+
+
+
+sleep 8
+
+
+#TP to Parchment Location 1
+mass tp XYZ(-2867.3896484375, -4882.05224609375, 57.579315185546875)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+#TP to Parchment Location 2
+mass tp XYZ(-5045.744140625, -3026.845947265625, 47.804168701171875)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 3
+mass tp XYZ(-1327.75341796875, -1569.407958984375, 17.5)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 4
+mass tp XYZ(-1084.6871337890625, 425.78271484375, 17.5) 
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 5
+mass tp XYZ(-2481.106689453125, 2761.48095703125, 30.36773681640625)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 6
+mass tp XYZ(1797.1890869140625, 6647.8349609375, 17.5) 
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 7
+mass tp XYZ(5698.88916015625, 3404.849365234375, 17.500030517578125)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 8
+mass tp XYZ(4494.7197265625, -5782.3017578125, 119.41094970703125)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 9
+mass tp XYZ(1242.9229736328125, -3498.18212890625, 17.5)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 32
+
+
+# Switch to Stormzilla Realm
+mass sendkey ESC 0.3
+sleep 0.4
+
+# Click Realms Icon
+
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'TabWindow', 'RealmsButton']
+sleep 0.4
+
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'btnRealmRight']
+sleep 0.4
+
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'btnRealmRight']
+sleep 0.4
+
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'btnRealmRight']
+sleep 0.4
+
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'btnRealmRight']
+sleep 0.4
+
+# Click Stormzilla Realm
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'wndRealmPanel', 'btnRealm0']
+sleep 0.4
+
+# Go to Realm
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'btnGoToRealm']
+
+
+
+sleep 8
+
+
+#TP to Parchment Location 1
+mass tp XYZ(-2867.3896484375, -4882.05224609375, 57.579315185546875)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+#TP to Parchment Location 2
+mass tp XYZ(-5045.744140625, -3026.845947265625, 47.804168701171875)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 3
+mass tp XYZ(-1327.75341796875, -1569.407958984375, 17.5)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 4
+mass tp XYZ(-1084.6871337890625, 425.78271484375, 17.5) 
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 5
+mass tp XYZ(-2481.106689453125, 2761.48095703125, 30.36773681640625)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 6
+mass tp XYZ(1797.1890869140625, 6647.8349609375, 17.5) 
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 7
+mass tp XYZ(5698.88916015625, 3404.849365234375, 17.500030517578125)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 8
+mass tp XYZ(4494.7197265625, -5782.3017578125, 119.41094970703125)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 9
+mass tp XYZ(1242.9229736328125, -3498.18212890625, 17.5)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 32
+
+
+# Switch to Sunbird Realm
+mass sendkey ESC 0.3
+sleep 0.4
+
+# Click Realms Icon
+
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'TabWindow', 'RealmsButton']
+sleep 0.4
+
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'btnRealmRight']
+sleep 0.4
+
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'btnRealmRight']
+sleep 0.4
+
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'btnRealmRight']
+sleep 0.4
+
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'btnRealmRight']
+sleep 0.4
+
+# Click Sunbird Realm
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'wndRealmPanel', 'btnRealm1']
+sleep 0.4
+
+# Go to Realm
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'btnGoToRealm']
+
+
+
+sleep 8
+
+
+# Switch to Sunbird Realm
+mass sendkey ESC 0.3
+sleep 0.4
+
+# Click Realms Icon
+
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'TabWindow', 'RealmsButton']
+sleep 0.4
+
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'btnRealmRight']
+sleep 0.4
+
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'btnRealmRight']
+sleep 0.4
+
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'btnRealmRight']
+sleep 0.4
+
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'btnRealmRight']
+sleep 0.4
+
+# Click Sunbird Realm
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'wndRealmPanel', 'btnRealm1']
+sleep 0.4
+
+# Go to Realm
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'btnGoToRealm']
+
+
+
+sleep 8
+
+
+#TP to Parchment Location 1
+mass tp XYZ(-2867.3896484375, -4882.05224609375, 57.579315185546875)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+#TP to Parchment Location 2
+mass tp XYZ(-5045.744140625, -3026.845947265625, 47.804168701171875)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 3
+mass tp XYZ(-1327.75341796875, -1569.407958984375, 17.5)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 4
+mass tp XYZ(-1084.6871337890625, 425.78271484375, 17.5) 
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 5
+mass tp XYZ(-2481.106689453125, 2761.48095703125, 30.36773681640625)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 6
+mass tp XYZ(1797.1890869140625, 6647.8349609375, 17.5) 
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 7
+mass tp XYZ(5698.88916015625, 3404.849365234375, 17.500030517578125)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 8
+mass tp XYZ(4494.7197265625, -5782.3017578125, 119.41094970703125)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 9
+mass tp XYZ(1242.9229736328125, -3498.18212890625, 17.5)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 32
+
+
+# Switch to Torrence Realm
+mass sendkey ESC 0.3
+sleep 0.4
+
+# Click Realms Icon
+
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'TabWindow', 'RealmsButton']
+sleep 0.4
+
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'btnRealmRight']
+sleep 0.4
+
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'btnRealmRight']
+sleep 0.4
+
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'btnRealmRight']
+sleep 0.4
+
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'btnRealmRight']
+sleep 0.4
+
+# Click Torrence Realm
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'wndRealmPanel', 'btnRealm2']
+sleep 0.4
+
+# Go to Realm
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'btnGoToRealm']
+
+
+
+sleep 8
+
+
+#TP to Parchment Location 1
+mass tp XYZ(-2867.3896484375, -4882.05224609375, 57.579315185546875)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+#TP to Parchment Location 2
+mass tp XYZ(-5045.744140625, -3026.845947265625, 47.804168701171875)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 3
+mass tp XYZ(-1327.75341796875, -1569.407958984375, 17.5)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 4
+mass tp XYZ(-1084.6871337890625, 425.78271484375, 17.5) 
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 5
+mass tp XYZ(-2481.106689453125, 2761.48095703125, 30.36773681640625)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 6
+mass tp XYZ(1797.1890869140625, 6647.8349609375, 17.5) 
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 7
+mass tp XYZ(5698.88916015625, 3404.849365234375, 17.500030517578125)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 8
+mass tp XYZ(4494.7197265625, -5782.3017578125, 119.41094970703125)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 9
+mass tp XYZ(1242.9229736328125, -3498.18212890625, 17.5)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 32
+
+
+# Switch to Troll Realm
+mass sendkey ESC 0.3
+sleep 0.4
+
+# Click Realms Icon
+
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'TabWindow', 'RealmsButton']
+sleep 0.4
+
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'btnRealmRight']
+sleep 0.4
+
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'btnRealmRight']
+sleep 0.4
+
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'btnRealmRight']
+sleep 0.4
+
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'btnRealmRight']
+sleep 0.4
+
+# Click Troll Realm
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'wndRealmPanel', 'btnRealm3']
+sleep 0.4
+
+# Go to Realm
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'btnGoToRealm']
+
+
+
+sleep 8
+
+
+#TP to Parchment Location 1
+mass tp XYZ(-2867.3896484375, -4882.05224609375, 57.579315185546875)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+#TP to Parchment Location 2
+mass tp XYZ(-5045.744140625, -3026.845947265625, 47.804168701171875)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 3
+mass tp XYZ(-1327.75341796875, -1569.407958984375, 17.5)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 4
+mass tp XYZ(-1084.6871337890625, 425.78271484375, 17.5) 
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 5
+mass tp XYZ(-2481.106689453125, 2761.48095703125, 30.36773681640625)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 6
+mass tp XYZ(1797.1890869140625, 6647.8349609375, 17.5) 
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 7
+mass tp XYZ(5698.88916015625, 3404.849365234375, 17.500030517578125)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 8
+mass tp XYZ(4494.7197265625, -5782.3017578125, 119.41094970703125)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 9
+mass tp XYZ(1242.9229736328125, -3498.18212890625, 17.5)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 32
+
+
+# Switch to Unicorn Realm
+mass sendkey ESC 0.3
+sleep 0.4
+
+# Click Realms Icon
+
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'TabWindow', 'RealmsButton']
+sleep 0.4
+
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'btnRealmRight']
+sleep 0.4
+
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'btnRealmRight']
+sleep 0.4
+
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'btnRealmRight']
+sleep 0.4
+
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'btnRealmRight']
+sleep 0.4
+
+# Click Unicorn Realm
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'wndRealmPanel', 'btnRealm4']
+sleep 0.4
+
+# Go to Realm
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'btnGoToRealm']
+
+
+
+sleep 8
+
+
+#TP to Parchment Location 1
+mass tp XYZ(-2867.3896484375, -4882.05224609375, 57.579315185546875)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+#TP to Parchment Location 2
+mass tp XYZ(-5045.744140625, -3026.845947265625, 47.804168701171875)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 3
+mass tp XYZ(-1327.75341796875, -1569.407958984375, 17.5)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 4
+mass tp XYZ(-1084.6871337890625, 425.78271484375, 17.5) 
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 5
+mass tp XYZ(-2481.106689453125, 2761.48095703125, 30.36773681640625)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 6
+mass tp XYZ(1797.1890869140625, 6647.8349609375, 17.5) 
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 7
+mass tp XYZ(5698.88916015625, 3404.849365234375, 17.500030517578125)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 8
+mass tp XYZ(4494.7197265625, -5782.3017578125, 119.41094970703125)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 9
+mass tp XYZ(1242.9229736328125, -3498.18212890625, 17.5)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 32
+
+
+# Switch to Vampire Realm
+mass sendkey ESC 0.3
+sleep 0.4
+
+# Click Realms Icon
+
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'TabWindow', 'RealmsButton']
+sleep 0.4
+
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'btnRealmRight']
+sleep 0.4
+
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'btnRealmRight']
+sleep 0.4
+
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'btnRealmRight']
+sleep 0.4
+
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'btnRealmRight']
+sleep 0.4
+
+# Click Vampire Realm
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'wndRealmPanel', 'btnRealm5']
+sleep 0.4
+
+# Go to Realm
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'btnGoToRealm']
+
+
+
+sleep 8
+
+
+#TP to Parchment Location 1
+mass tp XYZ(-2867.3896484375, -4882.05224609375, 57.579315185546875)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+#TP to Parchment Location 2
+mass tp XYZ(-5045.744140625, -3026.845947265625, 47.804168701171875)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 3
+mass tp XYZ(-1327.75341796875, -1569.407958984375, 17.5)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 4
+mass tp XYZ(-1084.6871337890625, 425.78271484375, 17.5) 
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 5
+mass tp XYZ(-2481.106689453125, 2761.48095703125, 30.36773681640625)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 6
+mass tp XYZ(1797.1890869140625, 6647.8349609375, 17.5) 
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 7
+mass tp XYZ(5698.88916015625, 3404.849365234375, 17.500030517578125)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 8
+mass tp XYZ(4494.7197265625, -5782.3017578125, 119.41094970703125)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 1
+
+#TP to Parchment Location 9
+mass tp XYZ(1242.9229736328125, -3498.18212890625, 17.5)
+
+#Pick Up Parchment
+sleep 1
+mass press X, 0.2
+sleep 32
+
+
+# Switch to Wraith Realm
+mass sendkey ESC 0.3
+sleep 0.4
+
+# Click Realms Icon
+
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'TabWindow', 'RealmsButton']
+sleep 0.4
+
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'btnRealmRight']
+sleep 0.4
+
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'btnRealmRight']
+sleep 0.4
+
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'btnRealmRight']
+sleep 0.4
+
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'btnRealmRight']
+sleep 0.4
+
+# Click Wraith Realm
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'wndRealmPanel', 'btnRealm6']
+sleep 0.4
+
+# Go to Realm
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'btnGoToRealm']
+
+
+
+sleep 8
+
+
+# Switch to Wu Realm
+mass sendkey ESC 0.3
+sleep 0.4
+
+# Click Realms Icon
+
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'TabWindow', 'RealmsButton']
+sleep 0.4
+
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'btnRealmRight']
+sleep 0.4
+
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'btnRealmRight']
+sleep 0.4
+
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'btnRealmRight']
+sleep 0.4
+
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'btnRealmRight']
+sleep 0.4
+
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'btnRealmRight']
+sleep 0.4
+
+# Click Wu Realm
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'wndRealmPanel', 'btnRealm0']
+sleep 0.4
+
+# Go to Realm
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'RealmOptions', 'btnGoToRealm']
+
+
+
+sleep 8
+
+#Restarts at Blossom

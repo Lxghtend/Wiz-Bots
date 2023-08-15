@@ -1,0 +1,26 @@
+# LOREMASTER TEAM UP AUTO FARM BY LXGHTEND
+
+p1 buypotions ifneeded
+p1 usepotion 20 10
+p1 clickwindow ['WorldView', 'NPCRangeWin', 'imgBackground', 'TeamUpButton']
+sleep 1
+p1 clickwindow ['WorldView', 'TeamUpConfirmationWindow', 'TeamUpConfirmationBackground', 'TeamUpButton']
+sleep 1
+p1 waitforzonechange to DragonSpire/DS_A1_Knowledge/Interiors/DS_Library_LoreMasterEncounter
+sleep 1
+p1 tp closestmob
+p1 waitforcombat completion
+sleep 2
+mass sendkey ESC, .01
+Sleep 2
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'QuitButton'] 
+sleep 2
+mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'QuitButton']
+sleep 2
+mass sendkey ENTER, 0.1
+mass waitforpath ['WorldView', 'mainWindow']
+sleep 2
+mass clickwindow ['WorldView', 'mainWindow', 'btnPlay']
+sleep 5
+
+

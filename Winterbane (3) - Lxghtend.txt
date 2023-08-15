@@ -1,0 +1,15 @@
+# 3 player winterbane farm
+
+mass usepotion 30, 10
+mass tp closestmob
+sleep 2
+mass waitforcombat completion
+sleep 2
+p3 tp XYZ(-1315.663330078125, 1496.705078125, 15.0443115234375)
+p2 tp XYZ(-1315.663330078125, 1496.705078125, 15.0443115234375)
+p1 tp XYZ(-2759.978759765625, -9.367109298706055, 15.088470458984375)
+p1 waitforzonechange to Housing_GHGauntlet/GH_WinterbaneGauntlet01/GH_WinterbaneGauntlet01_R02
+sleep 2
+p1 tp XYZ(3016.916748046875, -37.14863586425781, 12.4517822265625)
+p1 waitforzonechange to Housing_GHGauntlet/GH_WinterbaneGauntlet01/GH_WinterbaneGauntlet01_R03
+sleep 2

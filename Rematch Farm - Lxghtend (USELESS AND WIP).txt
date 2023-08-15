@@ -1,0 +1,70 @@
+REMATCHES
+
+Go to Duel #1
+p1 clickwindow [ 'WorldView', 'windowHUD', 'compassAndTeleporterButtons', 'GotoDormButton' ]
+p1 waitforzonechange to Housing/CardPromo/GS_Fantasy_Castle
+sleep 1
+p1 tp XYZ(-2696.58251953125, -3706.6044921875, 1987.234619140625)
+except p1 friendtp Taylor GoldenShield
+p2 waitforzonechange to Housing/CardPromo/GS_Fantasy_Castle
+p3 waitforzonechange to Housing/CardPromo/GS_Fantasy_Castle
+p4 waitforzonechange to Housing/CardPromo/GS_Fantasy_Castle
+sleep 1
+
+#Enter
+mass press X, 0.4
+mass waitforzonechange to Heroic_Dungeons_01/Dungeon_Rematch_KT_Krokopatra
+sleep 1
+
+#Walk To Krokopatra
+except p1 walkto XYZ(-1864.8121337890625, 161.32498168945312, -5.503997802734375)
+sleep 1
+p1 walkto XYZ(-1864.8121337890625, 161.32498168945312, -5.503997802734375)
+mass waitforcombat completion
+sleep 1
+
+#Go to Duel #2
+p1 clickwindow [ 'WorldView', 'windowHUD', 'compassAndTeleporterButtons', 'GotoDormButton' ]
+p1 waitforzonechange to Housing/CardPromo/GS_Fantasy_Castle
+sleep 1
+p1 tp XYZ(-2593.536865234375, -4248.15966796875, 1987.234619140625)
+except p1 friendtp Taylor GoldenShield
+p2 waitforzonechange to Housing/CardPromo/GS_Fantasy_Castle
+p3 waitforzonechange to Housing/CardPromo/GS_Fantasy_Castle
+p4 waitforzonechange to Housing/CardPromo/GS_Fantasy_Castle
+sleep 1
+
+#Enter
+mass press X, 0.4
+mass waitforzonechange to Heroic_Dungeons_01/Dungeon_Rematch_KT_Krokopatra
+sleep 1
+
+#Walk To Krokopatra
+except p1 walkto XYZ(-1864.8121337890625, 161.32498168945312, -5.503997802734375)
+sleep 1
+p1 walkto XYZ(-1864.8121337890625, 161.32498168945312, -5.503997802734375)
+mass waitforcombat completion
+sleep 1
+
+#Go to Duel #3
+p1 clickwindow [ 'WorldView', 'windowHUD', 'compassAndTeleporterButtons', 'GotoDormButton' ]
+p1 waitforzonechange to Housing/CardPromo/GS_Fantasy_Castle
+sleep 1
+p1 tp XYZ(-2544.4814453125, -4817.67626953125, 1987.234619140625)
+except p1 friendtp Taylor GoldenShield
+p2 waitforzonechange to Housing/CardPromo/GS_Fantasy_Castle
+p3 waitforzonechange to Housing/CardPromo/GS_Fantasy_Castle
+p4 waitforzonechange to Housing/CardPromo/GS_Fantasy_Castle
+sleep 1
+
+#Enter
+mass press X, 0.4
+mass waitforzonechange to Heroic_Dungeons_01/Dungeon_Rematch_KT_Krokopatra
+sleep 1
+
+#Walk To Krokopatra
+except p1 walkto XYZ(-1864.8121337890625, 161.32498168945312, -5.503997802734375)
+sleep 1
+p1 walkto XYZ(-1864.8121337890625, 161.32498168945312, -5.503997802734375)
+mass waitforcombat completion
+sleep 1
