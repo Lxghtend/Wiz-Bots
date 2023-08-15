@@ -1,0 +1,13 @@
+#CRYING SKY REVENANT BOT
+#have pet window open but not playing as pet, make sure one has spawned before u run
+
+p1 usepotion 40, 20
+p1 entitytp Parasaur
+p1 entitytp Parasaur
+p1 entitytp Parasaur
+p1 clickwindow ["WorldView", "windowHUD", "PetSystemButton", "PetButtonLayout", "PlayAsPetButton"]
+p1 waitforcombat completion
+p1 tp XYZ(-125.23338317871094, 4484.76416015625, 3.579498291015625)
+sleep 7
+p1 clickwindow ["WorldView", "windowHUD", "PetSystemButton", "PetButtonLayout", "PlayAsPetButton"]
+sleep 17
