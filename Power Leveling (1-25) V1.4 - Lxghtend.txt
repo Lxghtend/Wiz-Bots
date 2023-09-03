@@ -1,0 +1,2134 @@
+#        Power Leveling Bot (1-25)
+
+#        1. A max level carry is required (p1)
+#        2. Use the replace feature on notepad to replace "friendname" with your friends name
+#        3. Turn on combat and dialogue on Deimos
+#        4. Turn on remember realm in "Gameplay Options 3"
+#        5. Equip a quest from any world on page 5 of the world gate on the carry
+#        6. Get the quest for Tomb of the Beguiller (Temple of Storms)
+#        7. Equip a Drains (or any WC) quest on p1
+
+
+#	 BOT MADE BY @LXGHTEND (DM ON DISCORD FOR QUESTIONS)
+
+#TODO
+#add potion usage at 30,20
+
+
+
+
+#Throne Room of Fire (Start on top of sigil)
+	#Enter Dungeon
+		p1 press X, 0.4
+		p1 press X, 0.4
+		p1 waitforzonechange to Krokotopia/KT_Pyramid/KT_ThroneRoom
+		p2 friendtp friendname
+		p2 waitforzonechange to Krokotopia/KT_Pyramid/KT_ThroneRoom
+		sleep 1
+	#Complete Dungeon
+		#Talk to Winthrop
+			p1 tp XYZ(-8834.326171875, 2966.743896484375, -225.0)
+			sleep 1
+			p1 press X, 0.4
+			p1 press X, 0.4
+			sleep 1.5
+		#Defeat Prince Monu Nirini
+			p1 tp XYZ(-11379.919921875, 29864.80859375, 0.0)
+			p1 tp closestmob
+			p1 waitforcombat completion
+		sleep 1
+		#Talk to Winthrop
+			p1 tp XYZ(-8834.326171875, 2966.743896484375, -225.0)
+			sleep 1
+			p1 press X, 0.4
+			p1 press X, 0.4
+			sleep 2
+		#Defeat Krokenkahmen
+			p1 tp XYZ(-18431.87890625, -5699.478515625, -0.00024414059589616954)
+			p1 tp closestmob
+			p1 waitforcombat completion
+			sleep 1
+		#Talk to Winthrop
+			p1 tp XYZ(-8834.326171875, 2966.743896484375, -225.0)
+			sleep 1
+			p1 press X, 0.4
+			p1 press X, 0.4
+			sleep 2
+		#Use Map Room Platform
+			p1 tp XYZ(-7369.02001953125, 4291.02978515625, -103.07530212402344)
+			sleep 1
+			p1 press X, 0.4
+			p1 press X, 0.4
+			p1 press X, 0.4
+			sleep 2
+	#Relog
+		mass sendkey ESC, .01
+		Sleep 2
+		mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'QuitButton'] 
+		sleep 2
+		mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'QuitButton']
+		sleep 2
+		mass sendkey ENTER, 0.1
+		mass waitforpath ['WorldView', 'mainWindow']
+		sleep 2
+		mass clickwindow ['WorldView', 'mainWindow', 'btnPlay']
+		sleep 5
+
+#Throne Room of Fire (Second)
+	#Enter Dungeon
+		p1 press X, 0.4
+		p1 press X, 0.4
+		p1 waitforzonechange to Krokotopia/KT_Pyramid/KT_ThroneRoom
+		p2 friendtp friendname
+		p2 waitforzonechange to Krokotopia/KT_Pyramid/KT_ThroneRoom
+		sleep 1
+	#Complete Dungeon
+		#Talk to Winthrop
+			p1 tp XYZ(-8834.326171875, 2966.743896484375, -225.0)
+			sleep 1
+			p1 press X, 0.4
+			p1 press X, 0.4
+			sleep 1.5
+		#Defeat Prince Monu Nirini
+			p1 tp XYZ(-11379.919921875, 29864.80859375, 0.0)
+			p1 tp closestmob
+			p1 waitforcombat completion
+		sleep 1
+		#Talk to Winthrop
+			p1 tp XYZ(-8834.326171875, 2966.743896484375, -225.0)
+			sleep 1
+			p1 press X, 0.4
+			p1 press X, 0.4
+			sleep 2
+		#Defeat Krokenkahmen
+			p1 tp XYZ(-18431.87890625, -5699.478515625, -0.00024414059589616954)
+			p1 tp closestmob
+			p1 waitforcombat completion
+			sleep 1
+		#Talk to Winthrop
+			p1 tp XYZ(-8834.326171875, 2966.743896484375, -225.0)
+			sleep 1
+			p1 press X, 0.4
+			p1 press X, 0.4
+			sleep 2
+		#Use Map Room Platform
+			p1 tp XYZ(-7369.02001953125, 4291.02978515625, -103.07530212402344)
+			sleep 1
+			p1 press X, 0.4
+			p1 press X, 0.4
+			p1 press X, 0.4
+			sleep 2
+			
+#Vault of Ice
+	#Go to Dungeon Sigil
+		#Go to Oasis
+			p1 press END, 0.4
+			p1 waitforzonechange to Krokotopia/KT_Hub
+			sleep 1
+		#Use boat to Kroksphinx
+			p1 tp XYZ(4526.2109375, 3162.672119140625, 25.79229736328125)
+			sleep 1 
+			p1 press X, 0.4
+			p1 press X, 0.4
+			sleep 3
+			p1 press X, 0.4
+			p1 press X, 0.4
+			p1 waitforzonechange to Krokotopia/KT_Hub_Sphinx
+		#Go to Entrance Hall
+			p1 tp XYZ(15872.68359375, 4059.000244140625, 703.562255859375)
+			p1 waitforzonechange to Krokotopia/KT_Krokosphinx/KT_EntranceHall
+			p1 tp XYZ(8707.455078125, 39.628231048583984, 850.0484008789062)
+			sleep 1
+	#Enter Dungeon
+		p1 press X, 0.4
+		p1 press X, 0.4
+		p1 waitforzonechange to Krokotopia/KT_Krokosphinx/KT_Vault
+		p2 friendtp friendname
+		p2 waitforzonechange to Krokotopia/KT_Krokosphinx/KT_Vault
+		sleep 1
+	#Complete Dungeon
+		#Talk to Shalek the Wise
+			p1 tp XYZ(-557.186279296875, 437.0439147949219, 8.579231121075281e-07)
+			sleep 0.5
+			p1 press X, 0.4
+			sleep 0.5
+		#Defeat Keeper of the Fang
+			p1 tp XYZ(6983.708984375, 2636.9677734375, 0.0018310550367459655)
+			p1 tp closestmob
+			p1 waitforcombat completion
+			sleep 1
+		#Talk to Shalek the Wise
+			p1 tp XYZ(-557.186279296875, 437.0439147949219, 8.579231121075281e-07)
+			sleep 0.5
+			p1 press X, 0.4
+			sleep 0.5
+	#Relog
+		mass sendkey ESC, .01
+		Sleep 2
+		mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'QuitButton'] 
+		sleep 2
+		mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'QuitButton']
+		sleep 2
+		mass sendkey ENTER, 0.1
+		mass waitforpath ['WorldView', 'mainWindow']
+		sleep 2
+		mass clickwindow ['WorldView', 'mainWindow', 'btnPlay']
+		sleep 5
+		
+#Vault of Ice (Second)
+	#Enter Dungeon
+		p1 press X, 0.4
+		p1 press X, 0.4
+		p1 waitforzonechange to Krokotopia/KT_Krokosphinx/KT_Vault
+		p2 friendtp friendname
+		p2 waitforzonechange to Krokotopia/KT_Krokosphinx/KT_Vault
+		sleep 1
+	#Complete Dungeon
+		#Talk to Shalek the Wise
+			p1 tp XYZ(-557.186279296875, 437.0439147949219, 8.579231121075281e-07)
+			sleep 0.5
+			p1 press X, 0.4
+			sleep 0.5
+		#Defeat Keeper of the Fang
+			p1 tp XYZ(6983.708984375, 2636.9677734375, 0.0018310550367459655)
+			p1 tp closestmob
+			p1 waitforcombat completion
+			sleep 1
+		#Talk to Shalek the Wise
+			p1 tp XYZ(-557.186279296875, 437.0439147949219, 8.579231121075281e-07)
+			sleep 0.5
+			p1 press X, 0.4
+			sleep 0.5
+	#Relog
+		mass sendkey ESC, .01
+		Sleep 2
+		mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'QuitButton'] 
+		sleep 2
+		mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'QuitButton']
+		sleep 2
+		mass sendkey ENTER, 0.1
+		mass waitforpath ['WorldView', 'mainWindow']
+		sleep 2
+		mass clickwindow ['WorldView', 'mainWindow', 'btnPlay']
+		sleep 5
+			
+#Emperor's Retreat
+	#Go to Dungeon Sigil
+		p1 tp XYZ(4612.04345703125, 3624.466552734375, 0.00054931640625)
+		sleep 1
+	#Enter Dungeon
+		p1 press X, 0.4
+		p1 press X, 0.4
+		p1 waitforzonechange to Krokotopia/KT_Krokosphinx/KT_Retreat
+		p2 friendtp friendname
+		p2 waitforzonechange to Krokotopia/KT_Krokosphinx/KT_Retreat
+		sleep 2
+	#Complete Dungeon
+		#Talk to Shalek the Wise
+			p1 tp XYZ(-57.520320892333984, 589.4970703125, 26.76173973083496)
+			p1 press X, 0.4
+			p1 press X, 0.4
+			sleep 1
+		#Defeat Prince Suten Sokkwi
+			p1 tp XYZ(-510.8811950683594, 11255.1298828125, 3.0517578125e-05)
+			sleep 1 
+			p1 walkto XYZ(-539.5869750976562, 11758.541015625, 100.0)
+			p1 waitforzonechange to Krokotopia/KT_Krokosphinx/Interiors/KT_Retreat_T2
+			p1 tp closestmob
+			p1 waitforcombat completion
+			sleep 1
+		#Defeat Prince Kebi Sokkwi
+			p1 walkto XYZ(-80.58267974853516, 3325.67626953125, 99.99990844726562)
+			sleep 0.3
+			p1 walkto XYZ(-80.58267974853516, 3325.67626953125, 99.99990844726562)
+			p1 waitforzonechange to Krokotopia/KT_Krokosphinx/KT_Retreat
+			p1 tp XYZ(13874.599609375, 2986.26806640625, 4.391937255859375)
+			p1 walkto XYZ(14256.845703125, 2974.04833984375, 100.0)
+			p1 waitforzonechange to Krokotopia/KT_Krokosphinx/Interiors/KT_Retreat_T1
+			sleep 1 
+			p1 tp closestmob
+			p1 waitforcombat completion
+			sleep 1
+		#Talk to Shalek the Wise
+			p1 walkto XYZ(-20.935760498046875, 3347.302490234375, 102.87811279296875)
+			p1 waitforzonechange to Krokotopia/KT_Krokosphinx/KT_Retreat
+			p1 tp XYZ(-57.520320892333984, 589.4970703125, 26.76173973083496)
+			p1 press X, 0.4
+			p1 press X, 0.4
+			sleep 1
+		#Go to Frozen Lake
+			p1 tp XYZ(12420.080078125, 21912.8203125, -0.0029523109551519156)
+			sleep 1
+		#Talk to Shalek the Wise
+			p1 tp XYZ(11066.759765625, 18154.01953125, 0.09474468231201172)
+			p1 press X, 0.4
+			p1 press X, 0.4
+			sleep 2
+		#Free Shackled Slaves
+			p1 tp XYZ(16166.4501953125, 18057.259765625, -76.02278900146484)
+			sleep 1
+			p1 press X, 0.4
+			sleep 1
+			p1 tp XYZ(17206.162109375, 15167.505859375, -72.05572509765625)
+			sleep 1
+			p1 press X, 0.4
+			sleep 1
+			p1 tp XYZ(12756.62890625, 15098.9912109375, -71.85806274414062)
+			sleep 1
+			p1 press X, 0.4
+			sleep 1
+		#Talk to Shalek the Wise 
+			p1 tp XYZ(11066.759765625, 18154.01953125, 0.09474468231201172)
+			p1 press X, 0.4
+			p1 press X, 0.4
+			sleep 2
+		#Defeat Overseer Paniwi
+			p1 tp XYZ(-980.1268920898438, 14858.1904296875, 0.0)
+			p1 tp closestmob
+			p1 waitforcombat completion
+			sleep 1
+		#Talk to Shalek the Wise 
+			p1 tp XYZ(11066.759765625, 18154.01953125, 0.09474468231201172)
+			p1 press X, 0.4
+			p1 press X, 0.4
+			sleep 2
+		#Defeat Sokkwi Keymaster
+			p1 tp XYZ(-14867.0, 26996.7890625, 2.108978271484375)
+			p1 walkto XYZ(-15215.6357421875, 27015.587890625, 100.0)
+			p1 waitforzonechange to Krokotopia/KT_Krokosphinx/Interiors/KT_Retreat_T4
+			sleep 1
+			p1 tp closestmob
+			p1 waitforcombat completion
+			sleep 1
+	#Relog
+		mass sendkey ESC, .01
+		Sleep 2
+		mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'QuitButton'] 
+		sleep 2
+		mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'QuitButton']
+		sleep 2
+		mass sendkey ENTER, 0.1
+		mass waitforpath ['WorldView', 'mainWindow']
+		sleep 2
+		mass clickwindow ['WorldView', 'mainWindow', 'btnPlay']
+		sleep 5
+		
+#Emperor's Retreat (Second)
+	#Go to Dungeon Sigil
+		p1 tp XYZ(4612.04345703125, 3624.466552734375, 0.00054931640625)
+		sleep 1
+	#Enter Dungeon
+		p1 press X, 0.4
+		p1 press X, 0.4
+		p1 waitforzonechange to Krokotopia/KT_Krokosphinx/KT_Retreat
+		p2 friendtp friendname
+		p2 waitforzonechange to Krokotopia/KT_Krokosphinx/KT_Retreat
+		sleep 2
+	#Complete Dungeon
+		#Talk to Shalek the Wise
+			p1 tp XYZ(-57.520320892333984, 589.4970703125, 26.76173973083496)
+			p1 press X, 0.4
+			p1 press X, 0.4
+			sleep 1
+		#Defeat Prince Suten Sokkwi
+			p1 tp XYZ(-510.8811950683594, 11255.1298828125, 3.0517578125e-05)
+			sleep 1 
+			p1 walkto XYZ(-539.5869750976562, 11758.541015625, 100.0)
+			p1 waitforzonechange to Krokotopia/KT_Krokosphinx/Interiors/KT_Retreat_T2
+			p1 tp closestmob
+			p1 waitforcombat completion
+			sleep 1
+		#Defeat Prince Kebi Sokkwi
+			p1 walkto XYZ(-80.58267974853516, 3325.67626953125, 99.99990844726562)
+			sleep 0.3
+			p1 walkto XYZ(-80.58267974853516, 3325.67626953125, 99.99990844726562)
+			p1 waitforzonechange to Krokotopia/KT_Krokosphinx/KT_Retreat
+			p1 tp XYZ(13874.599609375, 2986.26806640625, 4.391937255859375)
+			p1 walkto XYZ(14256.845703125, 2974.04833984375, 100.0)
+			p1 waitforzonechange to Krokotopia/KT_Krokosphinx/Interiors/KT_Retreat_T1
+			sleep 1 
+			p1 tp closestmob
+			p1 waitforcombat completion
+			sleep 1
+		#Talk to Shalek the Wise
+			p1 walkto XYZ(-20.935760498046875, 3347.302490234375, 102.87811279296875)
+			p1 waitforzonechange to Krokotopia/KT_Krokosphinx/KT_Retreat
+			p1 tp XYZ(-57.520320892333984, 589.4970703125, 26.76173973083496)
+			p1 press X, 0.4
+			p1 press X, 0.4
+			sleep 1
+		#Go to Frozen Lake
+			p1 tp XYZ(12420.080078125, 21912.8203125, -0.0029523109551519156)
+			sleep 1
+		#Talk to Shalek the Wise
+			p1 tp XYZ(11066.759765625, 18154.01953125, 0.09474468231201172)
+			p1 press X, 0.4
+			p1 press X, 0.4
+			sleep 2
+		#Free Shackled Slaves
+			p1 tp XYZ(16166.4501953125, 18057.259765625, -76.02278900146484)
+			sleep 1
+			p1 press X, 0.4
+			sleep 1
+			p1 tp XYZ(17206.162109375, 15167.505859375, -72.05572509765625)
+			sleep 1
+			p1 press X, 0.4
+			sleep 1
+			p1 tp XYZ(12756.62890625, 15098.9912109375, -71.85806274414062)
+			sleep 1
+			p1 press X, 0.4
+			sleep 1
+		#Talk to Shalek the Wise 
+			p1 tp XYZ(11066.759765625, 18154.01953125, 0.09474468231201172)
+			p1 press X, 0.4
+			p1 press X, 0.4
+			sleep 2
+		#Defeat Overseer Paniwi
+			p1 tp XYZ(-980.1268920898438, 14858.1904296875, 0.0)
+			p1 tp closestmob
+			p1 waitforcombat completion
+			sleep 1
+		#Talk to Shalek the Wise 
+			p1 tp XYZ(11066.759765625, 18154.01953125, 0.09474468231201172)
+			p1 press X, 0.4
+			p1 press X, 0.4
+			sleep 2
+		#Defeat Sokkwi Keymaster
+			p1 tp XYZ(-14867.0, 26996.7890625, 2.108978271484375)
+			p1 walkto XYZ(-15215.6357421875, 27015.587890625, 100.0)
+			p1 waitforzonechange to Krokotopia/KT_Krokosphinx/Interiors/KT_Retreat_T4
+			sleep 1
+			p1 tp closestmob
+			p1 waitforcombat completion
+			sleep 1
+			
+#Karanahn Palace
+	#Go to Dungeon Sigil
+		#Go to Oasis
+			p1 press END, 0.4
+			p1 waitforzonechange to Krokotopia/KT_Hub
+			sleep 1
+		#Go to Tomb of Storm
+			#Activate pillars
+				p1 tp XYZ(-3296.0, -2828.0, -32.0)
+				p1 press X, 0.4
+				p1 press X, 0.4
+				p1 tp XYZ(-4512.0, -2608.0, -32.0)
+				p1 press X, 0.4
+				p1 press X, 0.4
+				p1 tp XYZ(-4198.677734375, -1329.605712890625, -35.35345458984375)
+				p1 press X, 0.4
+				p1 press X, 0.4
+			#Enter Tomb of Storms
+				p1 tp XYZ(-4312.0, -1396.0, -32.0)
+				sleep 1
+				p1 tp XYZ(-3095.121826171875, -1656.1671142578125, -34.774749755859375)
+				sleep 15
+				p1 walkto XYZ(-3342.240234375, -1814.208251953125, -35.35406494140625)
+				p1 waitforzonechange to Krokotopia/KT_Hub_Crypt
+				sleep 1
+		#Go to Well of Spirits
+			p1 tp XYZ(-10355.4501953125, -8239.1796875, -372.9990539550781)
+			p1 walkto XYZ(-10681.4326171875, -8555.9501953125, -372.9990539550781)
+			p1 waitforzonechange to Krokotopia/KT_Tomb/KT_WellOfSpirits
+			sleep 1
+		#Go to Karanahn Barracks (Sigil TP)
+			p1 tp XYZ(1488.1597900390625, 7238.16650390625, -881.6317749023438)
+			p1 walkto XYZ(1553.19482421875, 8232.1318359375, -994.4935913085938)
+			p1 waitforzonechange to Krokotopia/KT_Tomb/KT_Barracks
+			sleep 1
+			p1 tp XYZ(-36748.05859375, 23976.0234375, 2.087493896484375)
+			sleep 1
+	#Enter Dungeon
+		p1 press X, 0.4
+		p1 press X, 0.4
+		p1 waitforzonechange to Krokotopia/KT_Tomb/KT_KaranahnPalace
+		p2 friendtp friendname
+		p2 waitforzonechange to Krokotopia/KT_Tomb/KT_KaranahnPalace
+		sleep 2
+	#Complete Dungeon
+		#Defeat Prince Mkhai Karanahn
+			p1 tp XYZ(-1142.0548095703125, -7680.66015625, -0.0020141599234193563)
+			sleep 1
+			p1 tp closestmob
+			p1 waitforcombat completion
+			sleep 2
+		#Defeat Prince Meti Karanahn
+			p1 tp XYZ(20382.48828125, -6915.1552734375, -0.004641800187528133)
+			sleep 1
+			p1 tp closestmob
+			p1 waitforcombat completion
+			sleep 2
+		#Defeat Prince Ati Karanahn
+			p1 tp XYZ(20039.01953125, 7790.30078125, 0.0018730859737843275)
+			sleep 1
+			p1 tp closestmob
+			p1 waitforcombat completion
+			sleep 2
+		#Defeat Prince Aka Karanahn
+			p1 tp XYZ(-1148.1168212890625, 7015.4462890625, -0.0005772053846158087)
+			sleep 1
+			p1 tp closestmob
+			p1 waitforcombat completion
+			sleep 1
+	#Relog
+		mass sendkey ESC, .01
+		Sleep 2
+		mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'QuitButton'] 
+		sleep 2
+		mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'QuitButton']
+		sleep 2
+		mass sendkey ENTER, 0.1
+		mass waitforpath ['WorldView', 'mainWindow']
+		sleep 2
+		mass clickwindow ['WorldView', 'mainWindow', 'btnPlay']
+		sleep 5
+		
+#Karanahn Palace (Second)
+	#Enter Dungeon
+		p1 press X, 0.4
+		p1 press X, 0.4
+		p1 waitforzonechange to Krokotopia/KT_Tomb/KT_KaranahnPalace
+		p2 friendtp friendname
+		p2 waitforzonechange to Krokotopia/KT_Tomb/KT_KaranahnPalace
+		sleep 2
+	#Complete Dungeon
+		#Defeat Prince Mkhai Karanahn
+			p1 tp XYZ(-1142.0548095703125, -7680.66015625, -0.0020141599234193563)
+			sleep 1
+			p1 tp closestmob
+			p1 waitforcombat completion
+			sleep 2
+		#Defeat Prince Meti Karanahn
+			p1 tp XYZ(20382.48828125, -6915.1552734375, -0.004641800187528133)
+			sleep 1
+			p1 tp closestmob
+			p1 waitforcombat completion
+			sleep 2
+		#Defeat Prince Ati Karanahn
+			p1 tp XYZ(20039.01953125, 7790.30078125, 0.0018730859737843275)
+			sleep 1
+			p1 tp closestmob
+			p1 waitforcombat completion
+			sleep 2
+		#Defeat Prince Aka Karanahn
+			p1 tp XYZ(-1148.1168212890625, 7015.4462890625, -0.0005772053846158087)
+			sleep 1
+			p1 tp closestmob
+			p1 waitforcombat completion
+			sleep 1
+			
+#Tomb of the Beguiler
+	#Go to Dungeon Sigil
+		#Go to Oasis
+			p1 press END, 0.4
+			p1 waitforzonechange to Krokotopia/KT_Hub
+			sleep 1
+		#Go to Tomb of Storm
+			#Activate pillars
+				p1 tp XYZ(-3296.0, -2828.0, -32.0)
+				p1 press X, 0.4
+				p1 press X, 0.4
+				p1 tp XYZ(-4512.0, -2608.0, -32.0)
+				p1 press X, 0.4
+				p1 press X, 0.4
+				p1 tp XYZ(-4198.677734375, -1329.605712890625, -35.35345458984375)
+				p1 press X, 0.4
+				p1 press X, 0.4
+			#Enter Tomb of Storms
+				p1 tp XYZ(-4312.0, -1396.0, -32.0)
+				sleep 1
+				p1 tp XYZ(-3095.121826171875, -1656.1671142578125, -34.774749755859375)
+				sleep 15
+				p1 walkto XYZ(-3342.240234375, -1814.208251953125, -35.35406494140625)
+				p1 waitforzonechange to Krokotopia/KT_Hub_Crypt
+				sleep 1
+		#Go to Well of Spirits (Sigil TP)
+			p1 tp XYZ(-10355.4501953125, -8239.1796875, -372.9990539550781)
+			p1 walkto XYZ(-10681.4326171875, -8555.9501953125, -372.9990539550781)
+			p1 waitforzonechange to Krokotopia/KT_Tomb/KT_WellOfSpirits
+			sleep 1
+			p1 tp XYZ(-2365.18359375, 6886.73779296875, 6.103515625e-05)
+			sleep 1
+	#Enter Dungeon
+		p1 press X, 0.4
+		p1 press X, 0.4
+		p1 waitforzonechange to Krokotopia/KT_Tomb/Interiors/KT_Crypt06_Map00_Storm
+		p2 friendtp friendname
+		p2 waitforzonechange to Krokotopia/KT_Tomb/Interiors/KT_Crypt06_Map00_Storm
+		sleep 2
+	#Complete Dungeon
+		#Talk to Jah'mes
+			p1 tp XYZ(-11.366089820861816, 179.52459716796875, 0.0437011681497097)
+			sleep 1
+			p1 press X, 0.4
+			p1 press X, 0.4
+			sleep 1
+		#Defeat Serket the Spider
+			p1 tp XYZ(12906.5400390625, 11652.37890625, 0.0)
+			p1 tp closestmob
+			p1 waitforcombat completion
+			sleep 1
+		#Defeat Serket Guardian
+			p1 tp XYZ(6512.0283203125, 16669.107421875, -0.00012207029794808477)
+			sleep 2
+			p1 tp closestmob
+			p1 waitforcombat completion
+			sleep 1
+		#Talk to Jah'mes
+			p1 tp XYZ(6055.60302734375, 18611.1328125, 22.60540771484375)
+			sleep 3
+			p1 tp XYZ(48039.60546875, 805.4310302734375, 0.1456298828125)
+			sleep 1
+			p1 press X, 0.4
+			p1 press X, 0.4
+			sleep 1
+		#Defeat Ata Karanahn
+			p1 tp XYZ(42481.8203125, 11852.5693359375, 0.0)
+			sleep 2
+			p1 tp closestmob
+			p1 waitforcombat completion
+			sleep 1
+		#Talk to Rah'ea
+			p1 tp XYZ(40892.91015625, 13209.5498046875, -0.00024414059589616954)
+			sleep 2
+			p1 press X, 0.4
+			p1 press X, 0.4
+			sleep 1
+		#Defeat Atsu Karanahn
+			p1 tp XYZ(31241.6484375, 515.4671630859375, -4.979190998710692e-05)
+			sleep 2
+			p1 tp closestmob
+			p1 waitforcombat completion
+			sleep 1
+		#Talk to Ar'tes
+			p1 tp XYZ(29453.2890625, -973.5805053710938, 0.0576171912252903)
+			p1 press X, 0.4
+			p1 press X, 0.4
+			sleep 1
+		#Talk to Rah'ea
+			p1 tp XYZ(29514.98046875, -49.08776092529297, 22.605438232421875)
+			sleep 1
+			p1 tp XYZ(-31000.326171875, 1336.703125, 0.0152587890625)
+			sleep 1
+			p1 press X, 0.4
+			p1 press X, 0.4
+			sleep 1
+		#Defeat Warden Abasi
+			p1 tp XYZ(-42530.51953125, 17703.708984375, 0.0)
+			sleep 1
+			p1 tp closestmob
+			p1 waitforcombat completion
+			sleep 1
+		#Talk to Ar'tes
+			p1 tp XYZ(-43161.25, 23874.380859375, 1.6191070244531147e-05)
+			sleep 2
+			p1 press X, 0.4
+			p1 press X, 0.4
+			sleep 1
+		#Defeat Ngazi the Beguiler
+			p1 tp XYZ(-42881.6953125, 24466.853515625, 20.640472412109375)
+			sleep 2
+			p1 tp XYZ(430.8841247558594, 46339.73828125, -222.02149963378906)
+			sleep 2
+			p1 tp closestmob
+			p1 waitforcombat completion
+			sleep 1
+		#Talk to Ar'tes
+			p1 tp XYZ(-99.61358642578125, 48053.8515625, -222.0225067138672)
+			sleep 1
+			p1 press X, 0.4
+			p1 press X, 0.4
+			sleep 1
+	#Relog
+		mass sendkey ESC, .01
+		Sleep 2
+		mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'QuitButton'] 
+		sleep 2
+		mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'QuitButton']
+		sleep 2
+		mass sendkey ENTER, 0.1
+		mass waitforpath ['WorldView', 'mainWindow']
+		sleep 2
+		mass clickwindow ['WorldView', 'mainWindow', 'btnPlay']
+		sleep 5
+		
+#Tomb of the Beguiler (Second)
+	#Enter Dungeon
+		p1 press X, 0.4
+		p1 press X, 0.4
+		p1 waitforzonechange to Krokotopia/KT_Tomb/Interiors/KT_Crypt06_Map00_Storm
+		p2 friendtp friendname
+		p2 waitforzonechange to Krokotopia/KT_Tomb/Interiors/KT_Crypt06_Map00_Storm
+		sleep 2
+	#Complete Dungeon
+		#Talk to Jah'mes
+			p1 tp XYZ(-11.366089820861816, 179.52459716796875, 0.0437011681497097)
+			sleep 1
+			p1 press X, 0.4
+			p1 press X, 0.4
+			sleep 1
+		#Defeat Serket the Spider
+			p1 tp XYZ(12906.5400390625, 11652.37890625, 0.0)
+			p1 tp closestmob
+			p1 waitforcombat completion
+			sleep 1
+		#Defeat Serket Guardian
+			p1 tp XYZ(6512.0283203125, 16669.107421875, -0.00012207029794808477)
+			sleep 2
+			p1 tp closestmob
+			p1 waitforcombat completion
+			sleep 1
+		#Talk to Jah'mes
+			p1 tp XYZ(6055.60302734375, 18611.1328125, 22.60540771484375)
+			sleep 3
+			p1 tp XYZ(48039.60546875, 805.4310302734375, 0.1456298828125)
+			sleep 1
+			p1 press X, 0.4
+			p1 press X, 0.4
+			sleep 1
+		#Defeat Ata Karanahn
+			p1 tp XYZ(42481.8203125, 11852.5693359375, 0.0)
+			sleep 2
+			p1 tp closestmob
+			p1 waitforcombat completion
+			sleep 1
+		#Talk to Rah'ea
+			p1 tp XYZ(40892.91015625, 13209.5498046875, -0.00024414059589616954)
+			sleep 2
+			p1 press X, 0.4
+			p1 press X, 0.4
+			sleep 1
+		#Defeat Atsu Karanahn
+			p1 tp XYZ(31241.6484375, 515.4671630859375, -4.979190998710692e-05)
+			sleep 2
+			p1 tp closestmob
+			p1 waitforcombat completion
+			sleep 1
+		#Talk to Ar'tes
+			p1 tp XYZ(29453.2890625, -973.5805053710938, 0.0576171912252903)
+			p1 press X, 0.4
+			p1 press X, 0.4
+			sleep 1
+		#Talk to Rah'ea
+			p1 tp XYZ(29514.98046875, -49.08776092529297, 22.605438232421875)
+			sleep 1
+			p1 tp XYZ(-31000.326171875, 1336.703125, 0.0152587890625)
+			sleep 1
+			p1 press X, 0.4
+			p1 press X, 0.4
+			sleep 1
+		#Defeat Warden Abasi
+			p1 tp XYZ(-42530.51953125, 17703.708984375, 0.0)
+			sleep 1
+			p1 tp closestmob
+			p1 waitforcombat completion
+			sleep 1
+		#Talk to Ar'tes
+			p1 tp XYZ(-43161.25, 23874.380859375, 1.6191070244531147e-05)
+			sleep 2
+			p1 press X, 0.4
+			p1 press X, 0.4
+			sleep 1
+		#Defeat Ngazi the Beguiler
+			p1 tp XYZ(-42881.6953125, 24466.853515625, 20.640472412109375)
+			sleep 2
+			p1 tp XYZ(430.8841247558594, 46339.73828125, -222.02149963378906)
+			sleep 2
+			p1 tp closestmob
+			p1 waitforcombat completion
+			sleep 1
+		#Talk to Ar'tes
+			p1 tp XYZ(-99.61358642578125, 48053.8515625, -222.0225067138672)
+			sleep 1
+			p1 press X, 0.4
+			p1 press X, 0.4
+			sleep 1
+			
+#Counterweight West
+	#Go to Dungeon Sigil
+		#Go to World Gate
+			p1 press END, 0.4
+			p1 waitforzonechange
+			sleep 2
+			p1 tp XYZ(14.607400894165039, 385.652587890625, -3.013519287109375)
+			p1 walkto XYZ(11.206947326660156, -95.35340881347656, -59.308319091796875)
+			p1 waitforzonechange to Krokotopia/KT_WorldTeleporter
+			sleep 1
+			p1 tp XYZ(9.063962936401367, -197.64892578125, 134.3668212890625)
+			sleep 2
+		#Go to Marleybone
+			p1 press X, 0.4
+			sleep 1
+			p1 clickwindow ["WorldView", "", "messageBoxBG", "ControlSprite", "optionWindow", "wbtnMarleybone" ]
+			sleep 0.4
+			p1 clickwindow ["WorldView", "", "messageBoxBG", "ControlSprite", "teleportButton" ]
+			p1 waitforzonechange to Marleybone/Interiors/MB_friendnameminsterAbbey
+		#Go to Reagent's Square
+			p1 walkto XYZ(1.6016452312469482, -3684.49072265625, -0.000335693359375)
+			p1 waitforzonechange to Marleybone/MB_Hub
+			sleep 1
+		#Go to Royal Museum
+			p1 tp XYZ(-239.52479553222656, 8898.580078125, -3.0517578125e-05)
+			p1 walkto XYZ(-248.658447265625, 9138.5625, -3.0517578125e-05)
+			p1 waitforzonechange to Marleybone/MB_BigBen/MB_Museum
+			sleep 1
+		#Go to Counterweight West Sigil
+			p1 tp XYZ(-1010.408203125, 5951.80419921875, 250.112548828125)
+	#Enter Dungeon	
+		p1 press X, 0.4
+		p1 press X, 0.4
+		p1 waitforzonechange to Marleybone/MB_BigBen/MB_CounterweightWest
+		p2 friendtp friendname
+		p2 waitforzonechange to Marleybone/MB_BigBen/MB_CounterweightWest
+		sleep 2
+	#Complete Dungeon
+		#Talk to Sally Newflower
+			p1 tp XYZ(-1039.561767578125, -2456.9658203125, 0.0)
+			p1 press X, 0.4
+			p1 press X, 0.4
+			p1 press X, 0.4
+			p1 press X, 0.4
+			sleep 1
+		#Pull Counterweight Lever
+			p1 tp XYZ(62.12403106689453, -2015.3780517578125, 0.0)
+			p1 press X, 0.4
+			p1 press X, 0.4
+			sleep 1
+		#Pull Counterweight Lever (Second)
+			p1 tp XYZ(-1745.5350341796875, -218.26206970214844, 1100.0)
+			p1 press X, 0.4
+			p1 press X, 0.4
+			sleep 1
+		#Pull Counterweight Lever (Third)
+			p1 tp XYZ(-53.094512939453125, 1469.6634521484375, 2200.0)
+			p1 press X, 0.4
+			p1 press X, 0.4
+			sleep 1
+		#Pull Counterweight Lever (Fourth)
+			p1 tp XYZ(1723.5244140625, -188.5694580078125, 3300.0)
+			p1 press X, 0.4
+			p1 press X, 0.4
+			sleep 1
+	#Relog
+		mass sendkey ESC, .01
+		Sleep 2
+		mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'QuitButton'] 
+		sleep 2
+		mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'QuitButton']
+		sleep 2
+		mass sendkey ENTER, 0.1
+		mass waitforpath ['WorldView', 'mainWindow']
+		sleep 2
+		mass clickwindow ['WorldView', 'mainWindow', 'btnPlay']
+		sleep 5
+	
+#Counterweight West (Second)
+	#Enter Dungeon	
+		p1 press X, 0.4
+		p1 press X, 0.4
+		p1 waitforzonechange to Marleybone/MB_BigBen/MB_CounterweightWest
+		p2 friendtp friendname
+		p2 waitforzonechange to Marleybone/MB_BigBen/MB_CounterweightWest
+		sleep 2
+	#Complete Dungeon
+		#Talk to Sally Newflower
+			p1 tp XYZ(-1039.561767578125, -2456.9658203125, 0.0)
+			p1 press X, 0.4
+			p1 press X, 0.4
+			p1 press X, 0.4
+			p1 press X, 0.4
+			sleep 1
+		#Pull Counterweight Lever
+			p1 tp XYZ(62.12403106689453, -2015.3780517578125, 0.0)
+			p1 press X, 0.4
+			p1 press X, 0.4
+			sleep 1
+		#Pull Counterweight Lever (Second)
+			p1 tp XYZ(-1745.5350341796875, -218.26206970214844, 1100.0)
+			p1 press X, 0.4
+			p1 press X, 0.4
+			sleep 1
+		#Pull Counterweight Lever (Third)
+			p1 tp XYZ(-53.094512939453125, 1469.6634521484375, 2200.0)
+			p1 press X, 0.4
+			p1 press X, 0.4
+			sleep 1
+		#Pull Counterweight Lever (Fourth)
+			p1 tp XYZ(1723.5244140625, -188.5694580078125, 3300.0)
+			p1 press X, 0.4
+			p1 press X, 0.4
+			sleep 1
+
+#Counterweight East
+	#Go to Dungeon Sigil
+		#Relog
+			mass sendkey ESC, .01
+			Sleep 2
+			mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'QuitButton'] 
+			sleep 2
+			mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'QuitButton']
+			sleep 2
+			mass sendkey ENTER, 0.1
+			mass waitforpath ['WorldView', 'mainWindow']
+			sleep 2
+			mass clickwindow ['WorldView', 'mainWindow', 'btnPlay']
+			sleep 5
+		#TP to Sigil
+			p1 tp XYZ(905.087646484375, 5909.7109375, 250.14349365234375)
+			sleep 1
+	#Enter Dungeon
+		p1 press X, 0.4
+		p1 press X, 0.4
+		p1 waitforzonechange to Marleybone/MB_BigBen/MB_CounterweightEast
+		p2 friendtp friendname
+		p2 waitforzonechange to Marleybone/MB_BigBen/MB_CounterweightEast
+		sleep 2
+	#Complete Dungeon
+		#Talk to Gus
+			p1 tp XYZ(869.4896240234375, -2621.942138671875, 0.0)
+			p1 press X, 0.4
+			p1 press X, 0.4
+			sleep 1
+		#Pull Counterweight Lever
+			p1 tp XYZ(17.867164611816406, -2042.1004638671875, 0.0)
+			p1 press X, 0.4
+			p1 press X, 0.4
+			sleep 1
+		#Pull Counterweight Lever (Second)
+			p1 tp XYZ(-1792.8909912109375, -403.6428527832031, 1100.0)
+			p1 press X, 0.4
+			p1 press X, 0.4
+			sleep 1
+		#Pull Counterweight Lever (Third)
+			p1 tp XYZ(-118.45349884033203, 1559.30078125, 2200.0)
+			p1 press X, 0.4
+			p1 press X, 0.4
+			sleep 1
+		#Pull Counterweight Lever (Fourth)
+			p1 tp XYZ(1729.0028076171875, -144.61895751953125, 3300.0)
+			p1 press X, 0.4
+			p1 press X, 0.4
+			sleep 1
+	#Relog
+		mass sendkey ESC, .01
+		Sleep 2
+		mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'QuitButton'] 
+		sleep 2
+		mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'QuitButton']
+		sleep 2
+		mass sendkey ENTER, 0.1
+		mass waitforpath ['WorldView', 'mainWindow']
+		sleep 2
+		mass clickwindow ['WorldView', 'mainWindow', 'btnPlay']
+		sleep 5
+			
+#Counterweight East (Second)
+	#Enter Dungeon
+		p1 press X, 0.4
+		p1 press X, 0.4
+		p1 waitforzonechange to Marleybone/MB_BigBen/MB_CounterweightEast
+		p2 friendtp friendname
+		p2 waitforzonechange to Marleybone/MB_BigBen/MB_CounterweightEast
+		sleep 2
+	#Complete Dungeon
+		#Talk to Gus
+			p1 tp XYZ(869.4896240234375, -2621.942138671875, 0.0)
+			p1 press X, 0.4
+			p1 press X, 0.4
+			sleep 1
+		#Pull Counterweight Lever
+			p1 tp XYZ(17.867164611816406, -2042.1004638671875, 0.0)
+			p1 press X, 0.4
+			p1 press X, 0.4
+			sleep 1
+		#Pull Counterweight Lever (Second)
+			p1 tp XYZ(-1792.8909912109375, -403.6428527832031, 1100.0)
+			p1 press X, 0.4
+			p1 press X, 0.4
+			sleep 1
+		#Pull Counterweight Lever (Third)
+			p1 tp XYZ(-118.45349884033203, 1559.30078125, 2200.0)
+			p1 press X, 0.4
+			p1 press X, 0.4
+			sleep 1
+		#Pull Counterweight Lever (Fourth)
+			p1 tp XYZ(1729.0028076171875, -144.61895751953125, 3300.0)
+			p1 press X, 0.4
+			p1 press X, 0.4
+			sleep 1
+	#Relog
+		mass sendkey ESC, .01
+		Sleep 2
+		mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'QuitButton'] 
+		sleep 2
+		mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'QuitButton']
+		sleep 2
+		mass sendkey ENTER, 0.1
+		mass waitforpath ['WorldView', 'mainWindow']
+		sleep 2
+		mass clickwindow ['WorldView', 'mainWindow', 'btnPlay']
+		sleep 5
+		
+#Ironworks
+	#Go to Dungeon Sigil
+		#Exit Royal Museum
+			p1 tp XYZ(1.8487777709960938, -469.5370178222656, 0.014190673828125)
+			p1 walkto XYZ(-4.6959075927734375, -636.5286254882812, 0.014190673828125)
+			p1 waitforzonechange to Marleybone/MB_Hub
+			sleep 1
+		#Enter Digmoore Station
+			p1 tp XYZ(9276.5224609375, -7257.091796875, -3.0517578125e-05)
+			p1 walkto XYZ(9564.896484375, -7437.77734375, 30.00042724609375)
+			p1 waitforzonechange to Marleybone/MB_Station/MB_Station_Hub
+			sleep 1
+		#TP to Sigil
+			p1 tp XYZ(-4510.40087890625, 8001.2548828125, -113.55352783203125)
+			sleep 1
+		#Enter Dungeon
+		p1 press X, 0.4
+		p1 press X, 0.4
+		p1 waitforzonechange completion
+		sleep 3
+		p1 press X, 0.4
+		p1 press X, 0.4
+		p1 waitforzonechange to Marleybone/MB_Station/MB_Ironworks
+		sleep 2
+		p2 friendtp friendname
+		p2 waitforzonechange to Marleybone/MB_Station/MB_Ironworks
+		sleep 2
+	#Complete Dungeon
+		#Talk to Baxter
+			sleep 3
+			p1 tp XYZ(-368.0469055175781, 16209.419921875, 0.17763039469718933)
+			p1 press X, 0.4
+			p1 press X, 0.4
+			sleep 1
+		#Defeat O'Leary Napper
+			p1 tp XYZ(-3188.724365234375, 15490.5869140625, -229.99998474121094)
+			p1 waitforcombat completion
+			sleep 1
+		#Defeat O'Leary Napper (Failsafe)
+			p1 tp XYZ(-3188.724365234375, 15490.5869140625, -229.99998474121094)
+			p1 waitforcombat completion
+			sleep 1
+		#Talk to Baxter
+			p1 tp XYZ(-368.0469055175781, 16209.419921875, 0.17763039469718933)
+			p1 press X, 0.4
+			p1 press X, 0.4
+			sleep 1
+		#Go to Gate Door
+			p1 tp XYZ(1919.094970703125, 15188.900390625, -230.0)
+			sleep 1
+		#Talk to Baxter
+			p1 tp XYZ(-368.0469055175781, 16209.419921875, 0.17763039469718933)
+			p1 press X, 0.4
+			p1 press X, 0.4
+			sleep 1
+		#Defeat Nails O'Leary
+			p1 tp XYZ(-7608.9638671875, 30917.939453125, -6.103515625e-05)
+			p1 walkto XYZ(-7581.71875, 31582.716796875, 36.307708740234375)
+			p1 waitforzonechange to Marleybone/MB_Station/Interiors/MB_Ironworks_T1
+			sleep 1
+			p1 tp closestmob
+			p1 waitforcombat completion
+			sleep 1
+		#Talk to Baxter
+			p1 tp XYZ(-5.191904067993164, -1139.052734375, 0.0)
+			p1 walkto XYZ(-33.635009765625, -1370.4715576171875, 3.0517578125e-05)
+			p1 waitforzonechange to Marleybone/MB_Station/MB_Ironworks
+			p1 tp XYZ(-368.0469055175781, 16209.419921875, 0.17763039469718933)
+			p1 press X, 0.4
+			p1 press X, 0.4
+			sleep 1
+		#Talk to Baxter
+			p1 tp XYZ(5856.52197265625, 15170.1923828125, -229.99996948242188)
+			sleep 0.5
+			p1 walkto XYZ(6938.873046875, 15907.43359375, -480.0364074707031)
+			sleep 0.5
+			p1 walkto XYZ(6959.05224609375, 21536.865234375, 13.3662109375)
+			sleep 0.5
+			p1 walkto XYZ(6836.900390625, 23723.5390625, 59.499114990234375)
+			sleep 0.5
+			p1 walkto XYZ(6947.79931640625, 28092.798828125, -239.85968017578125)
+			sleep 1
+			p1 press X, 0.4
+			p1 press X, 0.4
+			sleep 1
+		#Collect Plans
+			p1 tp XYZ(8487.30078125, 31674.978515625, -724.8538818359375)
+			sleep 2
+			p1 press X, 0.4
+			p1 press X, 0.4
+			sleep 1
+		#Talk to Baxter
+			p1 tp XYZ(6947.79931640625, 28092.798828125, -239.85968017578125)
+			p1 press X, 0.4
+			p1 press X, 0.4
+			sleep 2
+		#Go to Pops O'Leary
+			p1 tp XYZ(5676.4580078125, 35973.44140625, 739.37841796875)
+			sleep 1
+		#Talk to Baxter
+			p1 tp XYZ(6947.79931640625, 28092.798828125, -239.85968017578125)
+			p1 press X, 0.4
+			p1 press X, 0.4
+			sleep 2
+		#Defeat Brady the Sneak
+			p1 tp XYZ(31366.490234375, 40935.94921875, -239.99998474121094)
+			p1 walkto XYZ(31841.400390625, 40777.07421875, -239.99998474121094)
+			p1 waitforzonechange to Marleybone/MB_Station/Interiors/MB_Ironworks_T5
+			p1 tp closestmob
+			p1 waitforcombat completion
+			sleep 1
+		#Return to Factory Door
+			p1 tp XYZ(-36.68840408325195, -2275.33154296875, -724.3870849609375)
+			p1 walkto XYZ(-64.77852630615234, -2286.206298828125, -724.3814697265625)
+			p1 waitforzonechange to Marleybone/MB_Station/MB_Ironworks
+			sleep 1
+			p1 tp XYZ(5656.24609375, 35970.921875, 754.6414184570312)
+			sleep 1
+		#Defeat Pops O'Leary
+			p1 tp XYZ(7372.837890625, 36614.65625, 775.259521484375)
+			p1 waitforcombat completion
+			sleep 1
+		#Talk to Baxter
+			p1 tp XYZ(6611.82080078125, 36087.12890625, 775.2603149414062)
+			p1 press X, 0.4
+			p1 press X, 0.4
+			sleep 1	
+	#Relog
+		mass sendkey ESC, .01
+		Sleep 2
+		mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'QuitButton'] 
+		sleep 2
+		mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'QuitButton']
+		sleep 2
+		mass sendkey ENTER, 0.1
+		mass waitforpath ['WorldView', 'mainWindow']
+		sleep 2
+		mass clickwindow ['WorldView', 'mainWindow', 'btnPlay']
+		sleep 5
+		
+#Ironworks (Second)
+	#Enter Dungeon
+		p1 press X, 0.4
+		p1 press X, 0.4
+		p1 waitforzonechange completion
+		sleep 3
+		p1 press X, 0.4
+		p1 press X, 0.4
+		p1 waitforzonechange to Marleybone/MB_Station/MB_Ironworks
+		sleep 2
+		p2 friendtp friendname
+		p2 waitforzonechange to Marleybone/MB_Station/MB_Ironworks
+		sleep 2
+	#Complete Dungeon
+		#Talk to Baxter
+			sleep 3
+			p1 tp XYZ(-368.0469055175781, 16209.419921875, 0.17763039469718933)
+			p1 press X, 0.4
+			p1 press X, 0.4
+			sleep 1
+		#Defeat O'Leary Napper
+			p1 tp XYZ(-3188.724365234375, 15490.5869140625, -229.99998474121094)
+			p1 waitforcombat completion
+			sleep 1
+		#Defeat O'Leary Napper (Failsafe)
+			p1 tp XYZ(-3188.724365234375, 15490.5869140625, -229.99998474121094)
+			p1 waitforcombat completion
+			sleep 1
+		#Talk to Baxter
+			p1 tp XYZ(-368.0469055175781, 16209.419921875, 0.17763039469718933)
+			p1 press X, 0.4
+			p1 press X, 0.4
+			sleep 1
+		#Go to Gate Door
+			p1 tp XYZ(1919.094970703125, 15188.900390625, -230.0)
+			sleep 1
+		#Talk to Baxter
+			p1 tp XYZ(-368.0469055175781, 16209.419921875, 0.17763039469718933)
+			p1 press X, 0.4
+			p1 press X, 0.4
+			sleep 1
+		#Defeat Nails O'Leary
+			p1 tp XYZ(-7608.9638671875, 30917.939453125, -6.103515625e-05)
+			p1 walkto XYZ(-7581.71875, 31582.716796875, 36.307708740234375)
+			p1 waitforzonechange to Marleybone/MB_Station/Interiors/MB_Ironworks_T1
+			sleep 1
+			p1 tp closestmob
+			p1 waitforcombat completion
+			sleep 1
+		#Talk to Baxter
+			p1 tp XYZ(-5.191904067993164, -1139.052734375, 0.0)
+			p1 walkto XYZ(-33.635009765625, -1370.4715576171875, 3.0517578125e-05)
+			p1 waitforzonechange to Marleybone/MB_Station/MB_Ironworks
+			p1 tp XYZ(-368.0469055175781, 16209.419921875, 0.17763039469718933)
+			p1 press X, 0.4
+			p1 press X, 0.4
+			sleep 1
+		#Talk to Baxter
+			p1 tp XYZ(5856.52197265625, 15170.1923828125, -229.99996948242188)
+			sleep 0.5
+			p1 walkto XYZ(6938.873046875, 15907.43359375, -480.0364074707031)
+			sleep 0.5
+			p1 walkto XYZ(6959.05224609375, 21536.865234375, 13.3662109375)
+			sleep 0.5
+			p1 walkto XYZ(6836.900390625, 23723.5390625, 59.499114990234375)
+			sleep 0.5
+			p1 walkto XYZ(6947.79931640625, 28092.798828125, -239.85968017578125)
+			sleep 1
+			p1 press X, 0.4
+			p1 press X, 0.4
+			sleep 1
+		#Collect Plans
+			p1 tp XYZ(8487.30078125, 31674.978515625, -724.8538818359375)
+			sleep 2
+			p1 press X, 0.4
+			p1 press X, 0.4
+			sleep 1
+		#Talk to Baxter
+			p1 tp XYZ(6947.79931640625, 28092.798828125, -239.85968017578125)
+			p1 press X, 0.4
+			p1 press X, 0.4
+			sleep 2
+		#Go to Pops O'Leary
+			p1 tp XYZ(5676.4580078125, 35973.44140625, 739.37841796875)
+			sleep 1
+		#Talk to Baxter
+			p1 tp XYZ(6947.79931640625, 28092.798828125, -239.85968017578125)
+			p1 press X, 0.4
+			p1 press X, 0.4
+			sleep 2
+		#Defeat Brady the Sneak
+			p1 tp XYZ(31366.490234375, 40935.94921875, -239.99998474121094)
+			p1 walkto XYZ(31841.400390625, 40777.07421875, -239.99998474121094)
+			p1 waitforzonechange to Marleybone/MB_Station/Interiors/MB_Ironworks_T5
+			p1 tp closestmob
+			p1 waitforcombat completion
+			sleep 1
+		#Return to Factory Door
+			p1 tp XYZ(-36.68840408325195, -2275.33154296875, -724.3870849609375)
+			p1 walkto XYZ(-64.77852630615234, -2286.206298828125, -724.3814697265625)
+			p1 waitforzonechange to Marleybone/MB_Station/MB_Ironworks
+			sleep 1
+			p1 tp XYZ(5656.24609375, 35970.921875, 754.6414184570312)
+			sleep 1
+		#Defeat Pops O'Leary
+			p1 tp XYZ(7372.837890625, 36614.65625, 775.259521484375)
+			p1 waitforcombat completion
+			sleep 1
+		#Talk to Baxter
+			p1 tp XYZ(6611.82080078125, 36087.12890625, 775.2603149414062)
+			p1 press X, 0.4
+			p1 press X, 0.4
+			sleep 1	
+	#Relog
+		mass sendkey ESC, .01
+		Sleep 2
+		mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'QuitButton'] 
+		sleep 2
+		mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'QuitButton']
+		sleep 2
+		mass sendkey ENTER, 0.1
+		mass waitforpath ['WorldView', 'mainWindow']
+		sleep 2
+		mass clickwindow ['WorldView', 'mainWindow', 'btnPlay']
+		sleep 5
+		
+#Crimson Fields
+	#Go to Dungeon Sigil
+		#Go to Mooshu
+			p1 press END, 0.4
+			p1 waitforzonechange completion
+			sleep 1
+			p1 tp XYZ(-102.4751968383789, -3452.279296875, 0.0)
+			p1 walkto XYZ(-9.882843017578125, -5319.736328125, 19.99542236328125)
+			p1 waitforzonechange completion
+			sleep 1
+			p1 walkto XYZ(39.26202392578125, -58.66286087036133, 59.999908447265625)
+			sleep 2
+			p1 press X, 0.4
+			p1 press X, 0.4
+			sleep 1
+			p1 clickwindow [ "WorldView", "", "messageBoxBG", "ControlSprite", "optionWindow", "wbtnMooShu" ]
+			sleep 0.4
+			p1 clickwindow [ "WorldView", "", "messageBoxBG", "ControlSprite", "teleportButton" ]
+			p1 waitforzonechange completion
+			sleep 1
+		#Go to Hametsu Village
+			p1 walkto XYZ(-0.98193359375, -5216.86669921875, 0.00848388671875)
+			p1 waitforzonechange completion
+			sleep 1
+			p1 tp XYZ(3057.028076171875, 2961.60791015625, 1.100311279296875)
+			p1 walkto XYZ(3140.247802734375, 3607.2666015625, 1.100311279296875)
+			p1 waitforzonechange completion
+			sleep 1
+		#TP to Sigil
+			p1 tp XYZ(-6957.7080078125, -27596.515625, 79.59347534179688)
+			sleep 1
+	#Enter Dungeon
+		p1 press X, 0.4
+		p1 press X, 0.4
+		p1 waitforzonechange to MooShu/MS_War/MS_War_BattlefieldA
+		sleep 2
+		p2 friendtp friendname
+		p2 waitforzonechange to MooShu/MS_War/MS_War_BattlefieldA
+		sleep 2
+	#Complete Dungeon
+		#Talk to Hoi Mang
+			p1 tp XYZ(-1023.625, -35.570308685302734, 10.0)
+			sleep 0.5
+			p1 press X, 0.4
+			p1 press X, 0.4
+			sleep 1
+		#Talk to Rikugun Mikawa
+			p1 tp XYZ(-5914.67822265625, 21879.01953125, 216.47959899902344)
+			p1 press X, 0.4
+			p1 press X, 0.4
+			sleep 2
+		#Gather Wood Pile
+			#1st Wood Pile
+				p1 tp XYZ(-1617.093505859375, 18791.765625, -149.00686645507812)
+				p1 press X, 0.4
+				p1 press X, 0.4
+				sleep 1
+			#2nd Wood Pile
+				p1 tp XYZ(-3074.653076171875, 20555.146484375, -149.77639770507812)
+				p1 press X, 0.4
+				p1 press X, 0.4
+				sleep 1
+			#3rd Wood Pile
+				p1 tp XYZ(-3121.0966796875, 15427.5048828125, -153.74356079101562)
+				p1 press X, 0.4
+				p1 press X, 0.4
+				sleep 1
+			#4th Wood Pile
+				p1 tp XYZ(-6361.89404296875, 16851.384765625, -149.60922241210938)
+				p1 press X, 0.4
+				p1 press X, 0.4
+				sleep 1
+		#Talk to Rikugun Mikawa
+			p1 tp XYZ(-5914.67822265625, 21879.01953125, 216.47959899902344)
+			p1 press X, 0.4
+			p1 press X, 0.4
+			sleep 2
+		#Construct Central Barricade
+			p1 tp XYZ(-6898.921875, 19352.990234375, 216.47959899902344)
+			sleep 2
+		#Construct Right Flank Barricade
+			p1 tp XYZ(-9122.625, 17863.98046875, -149.69940185546875)
+			sleep 2
+		#Construct Left Flank Barricade
+			p1 tp XYZ(-4295.93310546875, 18257.80078125, -149.2071990966797)
+			sleep 2
+		#Talk to Rikugun Mikawa
+			p1 tp XYZ(-5914.67822265625, 21879.01953125, 216.47959899902344)
+			p1 press X, 0.4
+			p1 press X, 0.4
+			sleep 2
+		#Talk to Ahn Nao
+			p1 tp XYZ(-24930.9609375, 2716.97607421875, 19.93630027770996)
+			sleep 1
+			p1 press X, 0.4
+			p1 press X, 0.4
+			sleep 1
+		#Talk to Sekou Leong
+			p1 tp XYZ(-24745.439453125, 25044.9296875, -145.7559051513672)
+			sleep 1
+			p1 press X, 0.4
+			p1 press X, 0.4
+			sleep 1
+		#Talk to Rikugun Mikawa
+			p1 tp XYZ(-5914.67822265625, 21879.01953125, 216.47959899902344)
+			p1 press X, 0.4
+			p1 press X, 0.4
+			sleep 2
+		#Talk to Bricktop
+			p1 tp XYZ(-10219.330078125, 20879.33984375, -149.77630615234375)
+			sleep 1
+			p1 press X, 0.4
+			p1 press X, 0.4
+			sleep 2
+		#Defeat Grum Foultooth
+			p1 tp XYZ(-34524.171875, 25007.2109375, 153.52178955078125)
+			p1 walkto XYZ(-34775.109375, 24969.060546875, 153.52178955078125)
+			p1 waitforzonechange to MooShu/MS_War/Interiors/MS_War2_T2
+			sleep 2
+			p1 tp closestmob
+			p1 waitforcombat completion
+			sleep 1
+		#Talk to Bricktop
+			p1 walkto XYZ(-102.92106628417969, -1841.934326171875, -0.001007080078125)
+			p1 waitforzonechange to MooShu/MS_War/MS_War_BattlefieldA
+			sleep 1
+			p1 tp XYZ(-10219.330078125, 20879.33984375, -149.77630615234375)
+			sleep 2
+			p1 press X, 0.4
+			p1 press X, 0.4
+			sleep 1
+		#Use First Cairn
+			p1 tp XYZ(-7033.5439453125, 7551.88623046875, 0.0)
+			sleep 0.5
+			p1 press X, 0.4
+			p1 press X, 0.4
+			sleep 1
+		#Use Second Cairn
+			p1 tp XYZ(-15229.3896484375, 18042.349609375, 0.006347655784338713)
+			sleep 1
+			p1 press X, 0.4
+			p1 press X, 0.4
+			sleep 1
+		#Talk to Bricktop
+			p1 tp XYZ(-10219.330078125, 20879.33984375, -149.77630615234375)
+			sleep 1
+			p1 press X, 0.4
+			p1 press X, 0.4
+			sleep 1
+		#Talk to Rikugun Mikawa
+			p1 tp XYZ(-5914.67822265625, 21879.01953125, 216.47959899902344)
+			sleep 1
+			p1 press X, 0.4
+			p1 press X, 0.4
+			sleep 2
+		#Clear the Battlefield
+			#1st Fight (2/5)
+				p1 tp XYZ(-11085.6806640625, 17643.224609375, -149.327880859375)
+				p1 tp closestmob
+				p1 waitforcombat completion
+				sleep 5
+			#2nd Fight (4/5)
+				p1 tp XYZ(-11002.37109375, 17845.94140625, -149.53831481933594)
+				p1 tp closestmob
+				p1 waitforcombat completion
+				sleep 5
+			#3rd Fight (5/5)
+				p1 tp XYZ(-10098.9443359375, 12952.2119140625, -399.9936828613281)
+				p1 tp closestmob
+				p1 waitforcombat completion
+				sleep 1
+		#Talk to Rikugun Mikawa
+			p1 tp XYZ(-5914.67822265625, 21879.01953125, 216.47959899902344)
+			sleep 1
+			p1 press X, 0.4
+			p1 press X, 0.4
+			sleep 2
+		#Defeat Katsumori
+			p1 tp XYZ(-0.5770955085754395, 69141.4765625, 295.1421813964844)
+			p1 walkto XYZ(25.378049850463867, 69428.3203125, 295.1421813964844)
+			p1 waitforzonechange to MooShu/MS_War/Interiors/MS_War2_T1
+			sleep 1
+			p1 tp closestmob
+			p1 waitforcombat completion
+			sleep 4
+		#Defeat War Oni
+			p1 tp closestmob
+			p1 waitforcombat completion
+			sleep 1
+	#Relog
+		mass sendkey ESC, .01
+		Sleep 2
+		mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'QuitButton'] 
+		sleep 2
+		mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'QuitButton']
+		sleep 2
+		mass sendkey ENTER, 0.1
+		mass waitforpath ['WorldView', 'mainWindow']
+		sleep 2
+		mass clickwindow ['WorldView', 'mainWindow', 'btnPlay']
+		sleep 5
+		
+#Crimson Fields (Second)
+	#Enter Dungeon
+		p1 press X, 0.4
+		p1 press X, 0.4
+		p1 waitforzonechange to MooShu/MS_War/MS_War_BattlefieldA
+		sleep 2
+		p2 friendtp friendname
+		p2 waitforzonechange to MooShu/MS_War/MS_War_BattlefieldA
+		sleep 2
+	#Complete Dungeon
+		#Talk to Hoi Mang
+			p1 tp XYZ(-1023.625, -35.570308685302734, 10.0)
+			sleep 0.5
+			p1 press X, 0.4
+			p1 press X, 0.4
+			sleep 1
+		#Talk to Rikugun Mikawa
+			p1 tp XYZ(-5914.67822265625, 21879.01953125, 216.47959899902344)
+			p1 press X, 0.4
+			p1 press X, 0.4
+			sleep 2
+		#Gather Wood Pile
+			#1st Wood Pile
+				p1 tp XYZ(-1617.093505859375, 18791.765625, -149.00686645507812)
+				p1 press X, 0.4
+				p1 press X, 0.4
+				sleep 1
+			#2nd Wood Pile
+				p1 tp XYZ(-3074.653076171875, 20555.146484375, -149.77639770507812)
+				p1 press X, 0.4
+				p1 press X, 0.4
+				sleep 1
+			#3rd Wood Pile
+				p1 tp XYZ(-3121.0966796875, 15427.5048828125, -153.74356079101562)
+				p1 press X, 0.4
+				p1 press X, 0.4
+				sleep 1
+			#4th Wood Pile
+				p1 tp XYZ(-6361.89404296875, 16851.384765625, -149.60922241210938)
+				p1 press X, 0.4
+				p1 press X, 0.4
+				sleep 1
+		#Talk to Rikugun Mikawa
+			p1 tp XYZ(-5914.67822265625, 21879.01953125, 216.47959899902344)
+			p1 press X, 0.4
+			p1 press X, 0.4
+			sleep 2
+		#Construct Central Barricade
+			p1 tp XYZ(-6898.921875, 19352.990234375, 216.47959899902344)
+			sleep 2
+		#Construct Right Flank Barricade
+			p1 tp XYZ(-9122.625, 17863.98046875, -149.69940185546875)
+			sleep 2
+		#Construct Left Flank Barricade
+			p1 tp XYZ(-4295.93310546875, 18257.80078125, -149.2071990966797)
+			sleep 2
+		#Talk to Rikugun Mikawa
+			p1 tp XYZ(-5914.67822265625, 21879.01953125, 216.47959899902344)
+			p1 press X, 0.4
+			p1 press X, 0.4
+			sleep 2
+		#Talk to Ahn Nao
+			p1 tp XYZ(-24930.9609375, 2716.97607421875, 19.93630027770996)
+			sleep 1
+			p1 press X, 0.4
+			p1 press X, 0.4
+			sleep 1
+		#Talk to Sekou Leong
+			p1 tp XYZ(-24745.439453125, 25044.9296875, -145.7559051513672)
+			sleep 1
+			p1 press X, 0.4
+			p1 press X, 0.4
+			sleep 1
+		#Talk to Rikugun Mikawa
+			p1 tp XYZ(-5914.67822265625, 21879.01953125, 216.47959899902344)
+			p1 press X, 0.4
+			p1 press X, 0.4
+			sleep 2
+		#Talk to Bricktop
+			p1 tp XYZ(-10219.330078125, 20879.33984375, -149.77630615234375)
+			sleep 1
+			p1 press X, 0.4
+			p1 press X, 0.4
+			sleep 2
+		#Defeat Grum Foultooth
+			p1 tp XYZ(-34524.171875, 25007.2109375, 153.52178955078125)
+			p1 walkto XYZ(-34775.109375, 24969.060546875, 153.52178955078125)
+			p1 waitforzonechange to MooShu/MS_War/Interiors/MS_War2_T2
+			sleep 1
+			p1 tp closestmob
+			p1 waitforcombat completion
+			sleep 1
+		#Talk to Bricktop
+			p1 walkto XYZ(-102.92106628417969, -1841.934326171875, -0.001007080078125)
+			p1 waitforzonechange to MooShu/MS_War/MS_War_BattlefieldA
+			sleep 1
+			p1 tp XYZ(-10219.330078125, 20879.33984375, -149.77630615234375)
+			sleep 2
+			p1 press X, 0.4
+			p1 press X, 0.4
+			sleep 1
+		#Use First Cairn
+			p1 tp XYZ(-7033.5439453125, 7551.88623046875, 0.0)
+			sleep 0.5
+			p1 press X, 0.4
+			p1 press X, 0.4
+			sleep 1
+		#Use Second Cairn
+			p1 tp XYZ(-15229.3896484375, 18042.349609375, 0.006347655784338713)
+			sleep 1
+			p1 press X, 0.4
+			p1 press X, 0.4
+			sleep 1
+		#Talk to Bricktop
+			p1 tp XYZ(-10219.330078125, 20879.33984375, -149.77630615234375)
+			sleep 1
+			p1 press X, 0.4
+			p1 press X, 0.4
+			sleep 1
+		#Talk to Rikugun Mikawa
+			p1 tp XYZ(-5914.67822265625, 21879.01953125, 216.47959899902344)
+			sleep 1
+			p1 press X, 0.4
+			p1 press X, 0.4
+			sleep 2
+		#Clear the Battlefield
+			#1st Fight (2/5)
+				p1 tp XYZ(-11085.6806640625, 17643.224609375, -149.327880859375)
+				p1 tp closestmob
+				p1 waitforcombat completion
+				sleep 5
+			#2nd Fight (4/5)
+				p1 tp XYZ(-11002.37109375, 17845.94140625, -149.53831481933594)
+				p1 tp closestmob
+				p1 waitforcombat completion
+				sleep 5
+			#3rd Fight (5/5)
+				p1 tp XYZ(-10098.9443359375, 12952.2119140625, -399.9936828613281)
+				p1 tp closestmob
+				p1 waitforcombat completion
+				sleep 1
+		#Talk to Rikugun Mikawa
+			p1 tp XYZ(-5914.67822265625, 21879.01953125, 216.47959899902344)
+			sleep 1
+			p1 press X, 0.4
+			p1 press X, 0.4
+			sleep 2
+		#Defeat Katsumori
+			p1 tp XYZ(-0.5770955085754395, 69141.4765625, 295.1421813964844)
+			p1 walkto XYZ(25.378049850463867, 69428.3203125, 295.1421813964844)
+			p1 waitforzonechange to MooShu/MS_War/Interiors/MS_War2_T1
+			sleep 1
+			p1 tp closestmob
+			p1 waitforcombat completion
+			sleep 4
+		#Defeat War Oni
+			p1 tp closestmob
+			p1 waitforcombat completion
+			sleep 1
+	#Relog
+		mass sendkey ESC, .01
+		Sleep 2
+		mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'QuitButton'] 
+		sleep 2
+		mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'QuitButton']
+		sleep 2
+		mass sendkey ENTER, 0.1
+		mass waitforpath ['WorldView', 'mainWindow']
+		sleep 2
+		mass clickwindow ['WorldView', 'mainWindow', 'btnPlay']
+		sleep 5
+
+#Shirataki Temple
+	#Go to Dungeon Sigil
+		#Go to Shoshun Village
+			p1 press END, 0.4
+			p1 waitforzonechange to MooShu/MS_Hub
+			sleep 1
+			p1 tp XYZ(11800.966796875, 13819.564453125, 167.98992919921875)
+			p1 walkto XYZ(11706.349609375, 14094.0625, 261.1421203613281)
+			p1 waitforzonechange to MooShu/Interiors/MS_WaterDojot1_Common
+			sleep 1
+			p1 tp XYZ(-1602.4180908203125, -1716.9615478515625, 3.0517578125e-05)
+			p1 walkto XYZ(-1879.6768798828125, -1830.645751953125, 6.103515625e-05)
+			p1 waitforzonechange to MooShu/MS_Plague/MS_Plague_Hub_FarmVillage
+			sleep 1
+		#TP to Sigil
+			p1 tp XYZ(-185.57247924804688, 15913.4814453125, 702.072509765625)
+			sleep 1
+	#Enter Dungeon
+		p1 press X,0.4
+		p1 press X,0.4
+		p1 waitforzonechange to MooShu/MS_Plague/MS_Plague_Zone3_CliffsidePalace
+		sleep 1
+		p2 friendtp friendname
+		p2 waitforzonechange to MooShu/MS_Plague/MS_Plague_Zone3_CliffsidePalace
+		sleep 2
+	#Complete Dungeon
+		#Defeat Shoji
+			p1 tp XYZ(11039.4609375, -15078.0107421875, 153.52285766601562)
+			p1 walkto XYZ(11045.5732421875, -15306.3828125, 153.52249145507812)
+			p1 waitforzonechange to MooShu/MS_Plague/Interiors/MS_Plague3_T5
+			sleep 1
+			p1 tp closestmob
+			p1 waitforcombat completion
+			sleep 1
+		#Talk to Din Hoi
+			p1 walkto XYZ(-46.113990783691406, -1842.78271484375, -0.001007080078125)
+			p1 waitforzonechange to MooShu/MS_Plague/MS_Plague_Zone3_CliffsidePalace
+			sleep 1
+			p1 tp XYZ(41915.19140625, 3342.544921875, 393.8655090332031)
+			sleep 1
+			p1 press X, 0.4
+			p1 press X, 0.4
+			sleep 1
+		#Defeat Haru
+			p1 tp XYZ(25007.640625, 41485.2109375, 295.14111328125)
+			p1 walkto XYZ(25040.41796875, 41966.6328125, 295.14111328125)
+			p1 waitforzonechange to MooShu/MS_Plague/Interiors/MS_Plague3_Dojo1
+			sleep 1
+			p1 tp closestmob
+			p1 waitforcombat completion
+			sleep 1
+		#Open Gate
+			p1 walkto XYZ(2924.648193359375, 30.785507202148438, 29.999969482421875)
+			sleep 0.4
+			p1 walkto XYZ(2924.648193359375, 30.785507202148438, 29.999969482421875)
+			p1 waitforzonechange to MooShu/MS_Plague/MS_Plague_Zone3_CliffsidePalace
+			sleep 1
+			p1 tp XYZ(43362.9609375, 3502.214111328125, 394.9700012207031)
+			sleep 1
+			p1 tp XYZ(41915.19140625, 3342.544921875, 393.8655090332031)
+			sleep 1
+			p1 press X, 0.4
+			p1 press X, 0.4
+			sleep 1
+		#Use Fire Shrine
+			p1 tp XYZ(3994.99658203125, 15359.7734375, 153.5223388671875)
+			p1 walkto XYZ(3991.35693359375, 15059.7890625, 153.5223388671875)
+			p1 waitforzonechange to MooShu/MS_Plague/Interiors/MS_Plague3_T2
+			sleep 1
+			p1 tp closestmob
+			p1 waitforcombat completion
+			sleep 1
+			p1 walkto XYZ(19.50079345703125, 1269.1348876953125, -56.89288330078125)
+			sleep 1
+			p1 press X, 0.4
+			p1 press X, 0.4
+			sleep 1
+		#Use Earth Shrine
+			p1 walkto XYZ(135.0535888671875, -1837.3587646484375, -0.001068115234375)
+			p1 waitforzonechange to MooShu/MS_Plague/MS_Plague_Zone3_CliffsidePalace
+			sleep 1
+			p1 tp XYZ(4010.05810546875, 22043.30078125, 153.52218627929688)
+			p1 walkto XYZ(3977.832763671875, 22301.576171875, 153.52218627929688)
+			p1 waitforzonechange to MooShu/MS_Plague/Interiors/MS_Plague3_T3
+			sleep 1
+			p1 tp closestmob
+			p1 waitforcombat completion
+			sleep 1
+			p1 walkto XYZ(-11.239032745361328, 1367.1270751953125, 3.0517578125e-05)
+			sleep 1
+			p1 press X, 0.4
+			p1 press X, 0.4
+			sleep 1
+		#Use Spirit Shrine
+			p1 walkto XYZ(-20.576814651489258, -1839.0274658203125, -0.00103759765625)
+			p1 waitforzonechange to MooShu/MS_Plague/MS_Plague_Zone3_CliffsidePalace
+			sleep 1
+			p1 tp XYZ(-4088.82861328125, 14023.591796875, 153.52249145507812)
+			p1 walkto XYZ(-4302.07861328125, 14043.8984375, 153.52288818359375)
+			p1 waitforzonechange to MooShu/MS_Plague/Interiors/MS_Plague3_T4
+			sleep 1
+			p1 tp closestmob
+			p1 waitforcombat completion
+			sleep 1
+			p1 walkto XYZ(24.601930618286133, 1364.0103759765625, 3.0517578125e-05)
+			sleep 1
+			p1 press X, 0.4
+			p1 press X, 0.4
+			sleep 1
+			p1 walkto XYZ(18.649364471435547, -1841.2828369140625, -0.00103759765625)
+			p1 waitforzonechange to MooShu/MS_Plague/MS_Plague_Zone3_CliffsidePalace
+			sleep 1
+		#Use Earth Shrine
+			p1 tp XYZ(11021.08984375, 22001.669921875, 153.5228271484375)
+			p1 walkto XYZ(11011.861328125, 22301.857421875, 153.5228271484375)
+			p1 waitforzonechange to MooShu/MS_Plague/Interiors/MS_Plague3_T1
+			sleep 1
+			p1 tp closestmob
+			p1 waitforcombat completion
+			sleep 1
+			p1 walkto XYZ(8.105835914611816, 1367.8988037109375, 3.0517578125e-05)
+			sleep 1 
+			p1 press X, 0.4
+			p1 press X, 0.4
+			sleep 1
+		#Defeat Wavebringer
+			p1 walkto XYZ(7.115630626678467, -1831.9259033203125, -0.0009765625)
+			p1 waitforzonechange to MooShu/MS_Plague/MS_Plague_Zone3_CliffsidePalace
+			sleep 1
+			p1 tp XYZ(42395.03515625, 3391.27978515625, 393.870849609375)
+			sleep 2
+			p1 walkto XYZ(45236.6953125, 3571.9775390625, 605.4195556640625)
+			p1 tp closestmob
+			p1 waitforcombat completion
+			sleep 1
+	#Relog
+		mass sendkey ESC, .01
+		Sleep 2
+		mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'QuitButton'] 
+		sleep 2
+		mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'QuitButton']
+		sleep 2
+		mass sendkey ENTER, 0.1
+		mass waitforpath ['WorldView', 'mainWindow']
+		sleep 2
+		mass clickwindow ['WorldView', 'mainWindow', 'btnPlay']
+		sleep 5
+		
+#Shirataki Temple (Second)
+	#Enter Dungeon
+		p1 press X,0.4
+		p1 press X,0.4
+		p1 waitforzonechange to MooShu/MS_Plague/MS_Plague_Zone3_CliffsidePalace
+		sleep 1
+		p2 friendtp friendname
+		p2 waitforzonechange to MooShu/MS_Plague/MS_Plague_Zone3_CliffsidePalace
+		sleep 2
+	#Complete Dungeon
+		#Defeat Shoji
+			p1 tp XYZ(11039.4609375, -15078.0107421875, 153.52285766601562)
+			p1 walkto XYZ(11045.5732421875, -15306.3828125, 153.52249145507812)
+			p1 waitforzonechange to MooShu/MS_Plague/Interiors/MS_Plague3_T5
+			sleep 1
+			p1 tp closestmob
+			p1 waitforcombat completion
+			sleep 1
+		#Talk to Din Hoi
+			p1 walkto XYZ(-46.113990783691406, -1842.78271484375, -0.001007080078125)
+			p1 waitforzonechange to MooShu/MS_Plague/MS_Plague_Zone3_CliffsidePalace
+			sleep 1
+			p1 tp XYZ(41915.19140625, 3342.544921875, 393.8655090332031)
+			sleep 1
+			p1 press X, 0.4
+			p1 press X, 0.4
+			sleep 1
+		#Defeat Haru
+			p1 tp XYZ(25007.640625, 41485.2109375, 295.14111328125)
+			p1 walkto XYZ(25040.41796875, 41966.6328125, 295.14111328125)
+			p1 waitforzonechange to MooShu/MS_Plague/Interiors/MS_Plague3_Dojo1
+			sleep 1
+			p1 tp closestmob
+			p1 waitforcombat completion
+			sleep 1
+		#Open Gate
+			p1 walkto XYZ(2924.648193359375, 30.785507202148438, 29.999969482421875)
+			sleep 0.4
+			p1 walkto XYZ(2924.648193359375, 30.785507202148438, 29.999969482421875)
+			p1 waitforzonechange to MooShu/MS_Plague/MS_Plague_Zone3_CliffsidePalace
+			sleep 1
+			p1 tp XYZ(43362.9609375, 3502.214111328125, 394.9700012207031)
+			sleep 1
+			p1 tp XYZ(41915.19140625, 3342.544921875, 393.8655090332031)
+			sleep 1
+			p1 press X, 0.4
+			p1 press X, 0.4
+			sleep 1
+		#Use Fire Shrine
+			p1 tp XYZ(3994.99658203125, 15359.7734375, 153.5223388671875)
+			p1 walkto XYZ(3991.35693359375, 15059.7890625, 153.5223388671875)
+			p1 waitforzonechange to MooShu/MS_Plague/Interiors/MS_Plague3_T2
+			sleep 1
+			p1 tp closestmob
+			p1 waitforcombat completion
+			sleep 1
+			p1 walkto XYZ(19.50079345703125, 1269.1348876953125, -56.89288330078125)
+			sleep 1
+			p1 press X, 0.4
+			p1 press X, 0.4
+			sleep 1
+		#Use Earth Shrine
+			p1 walkto XYZ(135.0535888671875, -1837.3587646484375, -0.001068115234375)
+			p1 waitforzonechange to MooShu/MS_Plague/MS_Plague_Zone3_CliffsidePalace
+			sleep 1
+			p1 tp XYZ(4010.05810546875, 22043.30078125, 153.52218627929688)
+			p1 walkto XYZ(3977.832763671875, 22301.576171875, 153.52218627929688)
+			p1 waitforzonechange to MooShu/MS_Plague/Interiors/MS_Plague3_T3
+			sleep 1
+			p1 tp closestmob
+			p1 waitforcombat completion
+			sleep 1
+			p1 walkto XYZ(-11.239032745361328, 1367.1270751953125, 3.0517578125e-05)
+			sleep 1
+			p1 press X, 0.4
+			p1 press X, 0.4
+			sleep 1
+		#Use Spirit Shrine
+			p1 walkto XYZ(-20.576814651489258, -1839.0274658203125, -0.00103759765625)
+			p1 waitforzonechange to MooShu/MS_Plague/MS_Plague_Zone3_CliffsidePalace
+			sleep 1
+			p1 tp XYZ(-4088.82861328125, 14023.591796875, 153.52249145507812)
+			p1 walkto XYZ(-4302.07861328125, 14043.8984375, 153.52288818359375)
+			p1 waitforzonechange to MooShu/MS_Plague/Interiors/MS_Plague3_T4
+			sleep 1
+			p1 tp closestmob
+			p1 waitforcombat completion
+			sleep 1
+			p1 walkto XYZ(24.601930618286133, 1364.0103759765625, 3.0517578125e-05)
+			sleep 1
+			p1 press X, 0.4
+			p1 press X, 0.4
+			sleep 1
+			p1 walkto XYZ(18.649364471435547, -1841.2828369140625, -0.00103759765625)
+			p1 waitforzonechange to MooShu/MS_Plague/MS_Plague_Zone3_CliffsidePalace
+			sleep 1
+		#Use Earth Shrine
+			p1 tp XYZ(11021.08984375, 22001.669921875, 153.5228271484375)
+			p1 walkto XYZ(11011.861328125, 22301.857421875, 153.5228271484375)
+			p1 waitforzonechange to MooShu/MS_Plague/Interiors/MS_Plague3_T1
+			sleep 1
+			p1 tp closestmob
+			p1 waitforcombat completion
+			sleep 1
+			p1 walkto XYZ(8.105835914611816, 1367.8988037109375, 3.0517578125e-05)
+			sleep 1 
+			p1 press X, 0.4
+			p1 press X, 0.4
+			sleep 1
+		#Defeat Wavebringer
+			p1 walkto XYZ(7.115630626678467, -1831.9259033203125, -0.0009765625)
+			p1 waitforzonechange to MooShu/MS_Plague/MS_Plague_Zone3_CliffsidePalace
+			sleep 1
+			p1 tp XYZ(42395.03515625, 3391.27978515625, 393.870849609375)
+			sleep 2
+			p1 walkto XYZ(45236.6953125, 3571.9775390625, 605.4195556640625)
+			p1 tp closestmob
+			p1 waitforcombat completion
+			sleep 5
+			
+#The Chancel
+	#Go to Dungeon Sigil
+		#Go to Celestia
+			p1 press END, 0.4
+			p1 waitforzonechange to MooShu/MS_Hub
+			sleep 1
+			p1 tp XYZ(104.8402328491211, 19.871673583984375, 1.100311279296875)
+			p1 walkto XYZ(-608.9315185546875, 42.09601974487305, 117.69552612304688)
+			p1 waitforzonechange to MooShu/Interiors/MS_Teleport_Chamber
+			p1 tp XYZ(-23.355459213256836, -89.00759887695312, 168.78436279296875)
+			sleep 2
+			p1 press X, 0.4
+			p1 press X, 0.4
+			sleep 1
+			p1 clickwindow [ "WorldView", "", "messageBoxBG", "ControlSprite", "optionWindow", "rightButton" ]
+			sleep 0.3
+			p1 clickwindow ["WorldView", "", "messageBoxBG", "ControlSprite", "optionWindow", "wbtnCelestia" ]
+			sleep 0.4
+			p1 clickwindow ["WorldView", "", "messageBoxBG", "ControlSprite", "teleportButton" ]
+			p1 waitforzonechange completion
+		#TP to Sigil
+			p1 tp XYZ(594.86328125, 11077.421875, -899.699951171875)
+	#Enter Dungeon
+		p1 press X, 0.4
+		p1 press X, 0.4
+		p1 waitforzonechange to Celestia/CL_Z11_Temple_Of_The_Sun
+		sleep 2
+		p2 friendtp friendname
+		p2 waitforzonechange to Celestia/CL_Z11_Temple_Of_The_Sun
+		sleep 2
+	#Complete Dungeon
+		#Go to High Altar
+			p1 tp XYZ(-182.97967529296875, -7330.49951171875, 796.0189208984375)
+			sleep 1
+		#Defeat Sharks
+			p1 tp closestmob
+			p1 waitforcombat completion
+			sleep 1
+			p1 tp XYZ(9.097488403320312, -8295.6630859375, 795.8013916015625)
+			sleep 10
+		#Go to Back Door
+			p1 tp XYZ(26.755950927734375, 13131.6201171875, -1598.81298828125)
+			sleep 1
+		#Use Sun Stand
+			#1st Sun Stand
+				p1 tp XYZ(2125.239990234375, 4077.596435546875, -375.06103515625)
+				sleep 2
+				p1 press X, 0.4
+				p1 press X, 0.4
+				sleep 1
+			#2nd Sun Stand
+				p1 tp XYZ(-2171.42724609375, 4055.364501953125, -375.06683349609375)
+				sleep 1
+				p1 press X, 0.4
+				p1 press X, 0.4
+				sleep 1
+			#3rd Sun Stand
+				p1 tp XYZ(-2923.1083984375, 6116.23046875, -375.06597900390625)
+				sleep 1
+				p1 press X, 0.4
+				p1 press X, 0.4
+				sleep 1
+			#4th Sun Stand
+				p1 tp XYZ(-2230.444580078125, 8052.29833984375, -375.0708312988281)
+				sleep 1
+				p1 press X, 0.4
+				p1 press X, 0.4
+				sleep 1
+			#5th Sun Stand
+				p1 tp XYZ(2054.296142578125, 8089.71826171875, -375.06103515625)
+				sleep 1
+				p1 press X, 0.4
+				p1 press X, 0.4
+				sleep 1
+			#6th Sun Stand
+				p1 tp XYZ(2985.02783203125, 6189.26318359375, -375.0704040527344)
+				sleep 1
+				p1 press X, 0.4
+				p1 press X, 0.4
+				sleep 2
+		#Defeat Stellar Protector
+			p1 tp XYZ(1007.971435546875, 5962.10400390625, -674.75)
+			p1 tp closestmob
+			p1 waitforcombat completion
+			sleep 1
+		#Defeat Shark Lieutenants
+			#Defeat Optio Marinos
+				p1 tp XYZ(18.99696159362793, 15377.5234375, -1644.5682373046875)
+				sleep 1
+				p1 tp closestmob
+				p1 waitforcombat completion
+				sleep 2
+			#Defeat Optio Vitale
+				p1 tp XYZ(3671.2431640625, 17871.109375, -1994.56787109375)
+				sleep 1
+				p1 tp closestmob
+				p1 waitforcombat completion
+				sleep 2
+			#Defeat Optio Neelus
+				p1 tp XYZ(-3857.979248046875, 19283.72265625, -1994.5679931640625)
+				sleep 1
+				p1 tp closestmob
+				p1 waitforcombat completion
+				sleep 2
+		#Use Sun Stone
+			#1st Sun Stone
+				p1 tp XYZ(-5.0141754150390625, 17300.60546875, -1644.568115234375)
+				sleep 1
+				p1 press X, 0.4
+				p1 press X, 0.4
+				sleep 1
+			#2nd Sun Stone
+				p1 tp XYZ(-3429.82666015625, 20094.60546875, -1994.568115234375)
+				sleep 1
+				p1 press X, 0.4
+				p1 press X, 0.4
+				sleep 1
+			#3rd Sun Stone
+				p1 tp XYZ(3380.1591796875, 20067.361328125, -1994.568115234375)
+				sleep 1
+				p1 press X, 0.4
+				p1 press X, 0.4
+				sleep 1
+		#Head to Big Salgio's Platform
+			p1 tp XYZ(6.878203868865967, 23323.259765625, -1969.1409912109375)
+			sleep 3
+		#Defeat Big Salgio
+			p1 tp closestmob
+			p1 waitforcombat completion
+			sleep 3
+	#Relog
+		mass sendkey ESC, .01
+		Sleep 2
+		mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'QuitButton'] 
+		sleep 2
+		mass clickwindow ['WorldView', 'DeckConfiguration', 'SettingPage', 'QuitButton']
+		sleep 2
+		mass sendkey ENTER, 0.1
+		mass waitforpath ['WorldView', 'mainWindow']
+		sleep 2
+		mass clickwindow ['WorldView', 'mainWindow', 'btnPlay']
+		sleep 5
+		
+#The Chancel (Second)
+	#Enter Dungeon
+		p1 press X, 0.4
+		p1 press X, 0.4
+		p1 waitforzonechange to Celestia/CL_Z11_Temple_Of_The_Sun
+		sleep 2
+		p2 friendtp friendname
+		p2 waitforzonechange to Celestia/CL_Z11_Temple_Of_The_Sun
+		sleep 2
+	#Complete Dungeon
+		#Go to High Altar
+			p1 tp XYZ(-182.97967529296875, -7330.49951171875, 796.0189208984375)
+			sleep 1
+		#Defeat Sharks
+			p1 tp closestmob
+			p1 waitforcombat completion
+			sleep 1
+			p1 tp XXYZ(9.097488403320312, -8295.6630859375, 795.8013916015625)
+			sleep 10
+		#Go to Back Door
+			p1 tp XYZ(26.755950927734375, 13131.6201171875, -1598.81298828125)
+			sleep 1
+		#Use Sun Stand
+			#1st Sun Stand
+				p1 tp XYZ(2125.239990234375, 4077.596435546875, -375.06103515625)
+				sleep 2
+				p1 press X, 0.4
+				p1 press X, 0.4
+				sleep 1
+			#2nd Sun Stand
+				p1 tp XYZ(-2171.42724609375, 4055.364501953125, -375.06683349609375)
+				sleep 1
+				p1 press X, 0.4
+				p1 press X, 0.4
+				sleep 1
+			#3rd Sun Stand
+				p1 tp XYZ(-2923.1083984375, 6116.23046875, -375.06597900390625)
+				sleep 1
+				p1 press X, 0.4
+				p1 press X, 0.4
+				sleep 1
+			#4th Sun Stand
+				p1 tp XYZ(-2230.444580078125, 8052.29833984375, -375.0708312988281)
+				sleep 1
+				p1 press X, 0.4
+				p1 press X, 0.4
+				sleep 1
+			#5th Sun Stand
+				p1 tp XYZ(2054.296142578125, 8089.71826171875, -375.06103515625)
+				sleep 1
+				p1 press X, 0.4
+				p1 press X, 0.4
+				sleep 1
+			#6th Sun Stand
+				p1 tp XYZ(2985.02783203125, 6189.26318359375, -375.0704040527344)
+				sleep 1
+				p1 press X, 0.4
+				p1 press X, 0.4
+				sleep 2
+		#Defeat Stellar Protector
+			p1 tp XYZ(1007.971435546875, 5962.10400390625, -674.75)
+			p1 tp closestmob
+			p1 waitforcombat completion
+			sleep 1
+		#Defeat Shark Lieutenants
+			#Defeat Optio Marinos
+				p1 tp XYZ(18.99696159362793, 15377.5234375, -1644.5682373046875)
+				sleep 1
+				p1 tp closestmob
+				p1 waitforcombat completion
+				sleep 2
+			#Defeat Optio Vitale
+				p1 tp XYZ(3671.2431640625, 17871.109375, -1994.56787109375)
+				sleep 1
+				p1 tp closestmob
+				p1 waitforcombat completion
+				sleep 2
+			#Defeat Optio Neelus
+				p1 tp XYZ(-3857.979248046875, 19283.72265625, -1994.5679931640625)
+				sleep 1
+				p1 tp closestmob
+				p1 waitforcombat completion
+				sleep 2
+		#Use Sun Stone
+			#1st Sun Stone
+				p1 tp XYZ(-5.0141754150390625, 17300.60546875, -1644.568115234375)
+				sleep 1
+				p1 press X, 0.4
+				p1 press X, 0.4
+				sleep 1
+			#2nd Sun Stone
+				p1 tp XYZ(-3429.82666015625, 20094.60546875, -1994.568115234375)
+				sleep 1
+				p1 press X, 0.4
+				p1 press X, 0.4
+				sleep 1
+			#3rd Sun Stone
+				p1 tp XYZ(3380.1591796875, 20067.361328125, -1994.568115234375)
+				sleep 1
+				p1 press X, 0.4
+				p1 press X, 0.4
+				sleep 1
+		#Head to Big Salgio's Platform
+			p1 tp XYZ(6.878203868865967, 23323.259765625, -1969.1409912109375)
+			sleep 3
+		#Defeat Big Salgio
+			p1 tp closestmob
+			p1 waitforcombat completion
+			sleep 3
+			
+			kill
